@@ -36,6 +36,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Clearance to incorporate an authentication system for users
 gem "clearance"
 
+# Use figaro to securely configure Rails applications
+gem 'figaro'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
