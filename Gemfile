@@ -39,6 +39,10 @@ gem "clearance"
 # Use figaro to securely configure Rails applications
 gem 'figaro'
 
+# Use omniauth and associated gems to authenticate users via disparate systems
+gem 'omniauth'
+gem 'omniauth-facebook'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
