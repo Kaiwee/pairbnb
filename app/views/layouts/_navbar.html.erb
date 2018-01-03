@@ -2,16 +2,21 @@
 	<ul class="active">
 		<li class="current-item"><%= link_to "Home", root_url %></li>
 		<li><%= link_to "About Us", "#" %></li>
-		<li><%= link_to "Host a home", new_listing_path %></li>
-		<li><%= link_to "My Listings", listings_path %></li>
-		
 
 		<% if signed_in? %>
-		<li><%= current_user.email %></li>
-		<li><%= link_to "Sign out", sign_out_path, method: :delete, data: { confirm: 'Sign out?' } %></li>
+			<li><%= link_to "Host a home", new_listing_path %></li>
+			<li><%= link_to "My Listings", listings_path %></li>
+			<li><%= current_user.email %></li>
+			<li><%= link_to "Sign out", sign_out_path, method: :delete, data: { confirm: 'Sign out?' } %></li>
 		<% else %>
-		<li><%= link_to "Login", sign_in_path %></li>
-		<li><%= link_to "Signup", sign_up_path %></li>
+			<li><%= link_to "Login", sign_in_path %></li>
+			<li><%= link_to "Signup", sign_up_path %></li>
 		<% end %>
 	</ul>
 </nav>
+
+<div id="flash">
+	<% flash.each do |key, value| -%>
+	<div id="flash_<%= key %>"><%=h value %></div>
+	<% end %>
+</div>

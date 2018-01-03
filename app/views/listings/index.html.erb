@@ -7,12 +7,14 @@
 
 <%  @listings.each do |listing| %>
     <tr>
+    <% if signed_in? and listing.user_id == current_user.id %>
           <td> <%= listing.title %> </td>     
           <td> <%= listing.address %> </td>
           <td> <%= listing.price %> </td>
           <td> <%= link_to 'Show', listing_path(listing) %> </td>
           <td><%= link_to 'Delete', listing_path(listing), method: :delete, data: { confirm: 'Are you sure?' } %></td>
           <td> <%= link_to 'Edit', edit_listing_path(listing) %> </td>
+    <% end %>
     </tr>   
 <% end %>
 </table>
