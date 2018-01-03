@@ -1,4 +1,16 @@
-    <p><%= @listing.title %></p>
-    <p><%= @listing.address %></p>
-    <p><%= @listing.price %></p>
-    <%= link_to 'Back', listings_path %>
+<p>
+	<strong>Title:</strong>
+	<%= @listing.title %>		
+</p>
+
+<p>
+	<strong>Address:</strong>
+	<%= @listing.address %>		
+</p>
+
+<p>
+	<strong>Price:</strong>
+	<%= @listing.price %>		
+</p>
+
+<%= link_to 'Back', listings_path %>
