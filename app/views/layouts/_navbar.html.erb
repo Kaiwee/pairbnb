@@ -1,7 +1,6 @@
 <nav class="menu">
 	<ul class="active">
 		<li class="current-item"><%= link_to "Home", root_url %></li>
-		<li><%= link_to "About Us", "#" %></li>
 
 		<% if signed_in? %>
 			<li><%= link_to "Host a home", new_listing_path %></li>

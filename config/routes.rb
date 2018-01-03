@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
+  # Static Pages
   root 'static#index'
+  get 'about' => 'static#about', as: "about"
 
   # Clearance Default Routes
   resources :passwords, controller: "clearance/passwords", only: [:create, :new]
