@@ -24,6 +24,12 @@ class ListingsController < ApplicationController
 		end
 	end
 
+	def update
+		@listing = Listing.find(params[:id])
+		@listing.update(listing_params)
+		redirect_to @listing
+	end
+
 	def destroy
     @listing = Listing.find(params[:id])
     @listing.destroy
