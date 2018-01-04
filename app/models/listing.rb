@@ -6,4 +6,6 @@ class Listing < ApplicationRecord
 
 	# User authorization
 	enum status: { Unverified: 0, Verified: 1}
+
+	mount_uploaders :photos, PhotosUploader
 end

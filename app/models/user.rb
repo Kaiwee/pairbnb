@@ -7,6 +7,8 @@ class User < ApplicationRecord
 	# User authorization
 	enum status: { customer: 0, moderator: 1, superadmin: 2 }
 
+	mount_uploader :image, ImageUploader
+
 	def self.create_with_auth_and_hash(authentication,auth_hash)
 		user = self.create! do |u|
 			u.password = SecureRandom.hex(10)

@@ -12,6 +12,7 @@
 			<li><%= link_to "Host a home", new_listing_path %></li>
 			<li><%= link_to "My Listings", listings_path %></li>
 			<li><%= current_user.email %></li>
+			<li><%= link_to "Edit Profile", edit_user_path(current_user.id) %></li>
 			<li><%= link_to "Sign out", sign_out_path, method: :delete, data: { confirm: 'Sign out?' } %></li>
 		<% else %>
 			<li><%= link_to "Login", sign_in_path %></li>

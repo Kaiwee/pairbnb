@@ -5,6 +5,7 @@ class UsersController < ApplicationController
 	end
 
 	def edit
+		@user = current_user
 	end
 
 	def update
@@ -19,6 +20,6 @@ class UsersController < ApplicationController
 	end
 
 	def user_params
-		params.require(:user).permit(:email, :password)
+		params.require(:user).permit(:email, :password, :image)
 	end
 end

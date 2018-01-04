@@ -1,19 +1,29 @@
-<p>
+<h1>
 	<strong>Title:</strong>
 	<%= @listing.title %>		
-</p>
+</h1>
 
-<p>
+<h1>
 	<strong>Address:</strong>
 	<%= @listing.address %>		
-</p>
+</h1>
 
-<p>
+<h1>
 	<strong>Price:</strong>
 	<%= @listing.price %>		
-</p>
+</h1>
 
-<p>
+<h1>
 	<strong>Status:</strong>
 	<%= @listing.status %>		
-</p>
+</h1>
+
+
+<h1>
+	<strong>Pictures</strong><br>
+	<% if @listing.photos? %>
+		<% @listing.photos.each do |photo| %>
+			<%= image_tag(photo) %>
+		<% end %>
+	<% end %>	
+</h1>

@@ -1,31 +1,20 @@
-<table>
-<tr>
-<th>ID</th>
-<th>Title</th>
-<th>Address</th>
-<th>Price</th>
-<th>Status</th>
-</tr>
-
 <%  @listings.each do |listing| %>
-    <tr>
-    <% if signed_in? and listing.user_id == current_user.id %>
-          <td> <%= listing.id %> </td>
-          <td> <%= listing.title %> </td>     
-          <td> <%= listing.address %> </td>
-          <td> <%= listing.price %> </td>
-          <td> <%= listing.status %> </td>
-          <td> <%= link_to 'Show', listing_path(listing) %> </td>
-          <td><%= link_to 'Delete', listing_path(listing), method: :delete, data: { confirm: 'Are you sure?' } %></td>
-          <td> <%= link_to 'Edit', edit_listing_path(listing) %> </td>
+<div class="col-md-12">
+  <div class="well">
+          <p> <%= listing.id %> </p>
+          <p> <%= listing.title %> </p>     
+          <p> <%= listing.address %> </p>
+          <p> <%= listing.price %> </p>
+          <p> <%= listing.status %> </p>
+          <p> <%= link_to 'Show', listing_path(listing) %> </p>
+          <p> <%= link_to 'Edit', edit_listing_path(listing) %> </p>
 
           <% if signed_in? and current_user.moderator? %>
-            <td> <%= link_to 'Verify', edit_listing_path(listing) %> </td>
-          <% end %>
-    <% end %>
-    </tr>   
+          <p> <%= link_to 'Verify', edit_listing_path(listing) %> </p>
+          <% end %>  
 <% end %>
-</table>
+</div>
+</div>
 <br>
 
 <div class="pagination">

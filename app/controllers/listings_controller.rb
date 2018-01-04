@@ -1,6 +1,6 @@
 class ListingsController < ApplicationController
 	def index
-		@listings = current_user.listings.all.paginate(page: params[:page], per_page: 2).order('created_at DESC')
+		@listings = current_user.listings.all.paginate(page: params[:page], per_page: 5).order('created_at DESC')
 	end
 
 	def show
@@ -39,6 +39,6 @@ class ListingsController < ApplicationController
 
 	private
 	def listing_params
-		params.require(:listing).permit(:title, :address, :price)
+		params.require(:listing).permit(:title, :address, :price, {photos: []})
 	end
 end

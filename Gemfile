@@ -48,6 +48,10 @@ gem 'omniauth-facebook'
 # Use will_paginate for pagination
 gem 'will_paginate', '~> 3.1.0'
 
+# Use carrierwave to upload images, MiniMagick to process them.
+gem 'carrierwave', '~> 1.0'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

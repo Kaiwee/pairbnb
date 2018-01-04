@@ -1,0 +1,14 @@
+<%= form_for @user do |form| %>
+
+<div>
+	<%= form.label :email %>
+	<%= form.text_field :email, type: 'email' %>
+</div>
+
+<div>
+	<%= form.file_field :image %><br>
+</div>
+<%= form.submit %>
+<% end %>
+
+<h3><%= link_to "View Profile", user_path %></h3>
