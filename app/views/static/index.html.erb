@@ -6,6 +6,23 @@
     <div class="sub-text">A place to find your next home</div>
   </div>
 
+<%  @listings.each do |listing| %>
+<div class="col-md-12">
+  <div class="well">
+          <p> <%= listing.id %> </p>
+          <p> <%= listing.title %> </p>     
+          <p> <%= listing.address %> </p>
+          <p> <%= listing.price %> </p>
+          <p> <%= listing.status %> </p>
+          <p> <%= link_to 'Show', listing_path(listing) %> </p>
+
+          <% if current_user.moderator? %>
+          <p> <%= link_to 'Verify', edit_listing_path(listing) %> </p>
+          <% end %>  
+<% end %>
+</div>
+</div>
+<% if false %>
 <div>
 <table>
 <tr>
@@ -32,6 +49,7 @@
 <% end %>
 </table>
 </div>
+<% end %>
 
 <br>
 <div class="pagination">
