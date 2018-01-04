@@ -27,14 +27,15 @@ class ListingsController < ApplicationController
 	def update
 		@listing = Listing.find(params[:id])
 		@listing.update(listing_params)
+		@listing.Verified! if current_user.moderator?
 		redirect_to @listing
 	end
 
 	def destroy
-    @listing = Listing.find(params[:id])
-    @listing.destroy
-    redirect_to listings_path
-end
+		@listing = Listing.find(params[:id])
+		@listing.destroy
+		redirect_to listings_path
+	end
 
 	private
 	def listing_params

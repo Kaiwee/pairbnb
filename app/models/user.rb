@@ -4,6 +4,8 @@ class User < ApplicationRecord
 	has_many :listings
 	has_many :authentications, :dependent => :destroy
 
+	enum status: { customer: 0, moderator: 1, superadmin: 2 }
+
 	def self.create_with_auth_and_hash(authentication,auth_hash)
 		user = self.create! do |u|
 			u.password = SecureRandom.hex(10)

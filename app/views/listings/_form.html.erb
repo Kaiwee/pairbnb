@@ -6,6 +6,11 @@
     <%= f.text_field :address %><br>
     <%= f.label "Price" %><br>
     <%= f.number_field :price %><br>
+    
+    <% if current_user.moderator? %>
+      <%= f.label "Status" %><br>
+      <%= f.number_field :status %><br>
+    <% end %>
   </p>
 
   <p>
