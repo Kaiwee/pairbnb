@@ -2,6 +2,12 @@
 	<ul class="active">
 		<li class="current-item"><%= link_to "Home", root_url %></li>
 
+		<li><input type="text" placeholder="Search"><button type="submit">Submit</button></li>
+
+		<% if !signed_in? %>
+		<li><%= link_to "Host a home", sign_in_path %></li>
+		<% end %>
+
 		<% if signed_in? %>
 			<li><%= link_to "Host a home", new_listing_path %></li>
 			<li><%= link_to "My Listings", listings_path %></li>
