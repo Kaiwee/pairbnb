@@ -7,7 +7,7 @@
     <%= f.label "Price" %><br>
     <%= f.number_field :price %><br>
     
-    <% if current_user.moderator? %>
+    <% if signed_in? and current_user.moderator? %>
       <%= f.label "Status" %><br>
       <%= f.number_field :status %><br>
     <% end %>

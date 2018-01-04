@@ -19,7 +19,7 @@
           <td><%= link_to 'Delete', listing_path(listing), method: :delete, data: { confirm: 'Are you sure?' } %></td>
           <td> <%= link_to 'Edit', edit_listing_path(listing) %> </td>
 
-          <% if current_user.moderator? %>
+          <% if signed_in? and current_user.moderator? %>
             <td> <%= link_to 'Verify', edit_listing_path(listing) %> </td>
           <% end %>
     <% end %>
