@@ -5,6 +5,43 @@
     <div class="main-text">Pair BnB</div>
     <div class="sub-text">A place to find your next home</div>
   </div>
+
+<div>
+<table>
+<tr>
+<th>ID</th>  
+<th>Title</th>
+<th>Address</th>
+<th>Price</th>
+<th>Status</th>
+</tr>
+
+<%  @listings.each do |listing| %>
+    <tr>
+          <td> <%= listing.id %> </td>
+          <td> <%= listing.title %> </td>     
+          <td> <%= listing.address %> </td>
+          <td> <%= listing.price %> </td>
+          <td> <%= listing.status %> </td>
+          <td> <%= link_to 'Show', listing_path(listing) %> </td>
+
+          <% if current_user.moderator? %>
+          <td> <%= link_to 'Verify', edit_listing_path(listing) %> </td>
+          <% end %>
+    </tr>   
+<% end %>
+</table>
+</div>
+
+<br>
+<div class="pagination">
+    <div class="page_info">
+      <%= page_entries_info @listings %>
+    </div>
+    <%= will_paginate @listings, :container => false %>
+  </div>
+
+
   <div class="div-one">
     <div class="para-one">
       <h1>About Us</h1>
