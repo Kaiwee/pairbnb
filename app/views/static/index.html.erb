@@ -18,7 +18,8 @@
           <p> <%= link_to 'Show', listing_path(listing) %> </p>
 
           <% if signed_in? and current_user.moderator? %>
-          <p> <%= link_to 'Verify', edit_listing_path(listing) %> </p>
+          <button type="button" class="btn btn-success"><%= link_to 'Verify', edit_listing_path(listing) %></button>
+          <button type="button" class="btn btn-danger"><%= link_to 'Unverify', edit_listing_path(listing) %></button> 
           <% end %>
   </div>
 </div>  
