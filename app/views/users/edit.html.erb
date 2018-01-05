@@ -6,9 +6,24 @@
 </div>
 
 <div>
+	<%= form.label "Upload a profile picture from your computer" %>
 	<%= form.file_field :image %><br>
+	<%= form.hidden_field :image_cache %>
 </div>
-<%= form.submit %>
+<%= form.submit %><br>
+
+<div> 
+  <% if current_user.image? %>
+  <strong>Your Profile Image</strong><br>
+  <%= image_tag(current_user.image_url) %>
+    <label>
+  	<p>Pleack tick and click the delete button to delete</p><br>
+    <%= form.check_box :remove_image %>
+    Remove Profile Picture
+    <%= form.submit "Delete" %>
+  </label><br>
+  <% end %>
 <% end %>
+</div>
 
 <h3><%= link_to "View Profile", user_path %></h3>

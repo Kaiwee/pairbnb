@@ -2,8 +2,6 @@
 	<ul class="active">
 		<li class="current-item"><%= link_to "Home", root_url %></li>
 
-		<li><input type="text" placeholder="Search"><button type="submit">Submit</button></li>
-
 		<% if !signed_in? %>
 		<li><%= link_to "Host a home", sign_in_path %></li>
 		<% end %>
@@ -14,6 +12,9 @@
 			<li><%= current_user.email %></li>
 			<li><%= link_to "Edit Profile", edit_user_path(current_user.id) %></li>
 			<li><%= link_to "Sign out", sign_out_path, method: :delete, data: { confirm: 'Sign out?' } %></li>
+			<% if current_user.image? %>
+				<%= image_tag(current_user.image_url(:thumb).to_s) %><br>
+			<% end %>
 		<% else %>
 			<li><%= link_to "Login", sign_in_path %></li>
 			<li><%= link_to "Signup", sign_up_path %></li>

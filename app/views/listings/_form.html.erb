@@ -6,25 +6,26 @@
   <%= f.text_field :address %><br>
   <%= f.label "Price" %><br>
   <%= f.number_field :price %><br>
+  <%= f.label "Upload files from your computer" %>
   <%= f.file_field :photos, multiple: true %><br>
 
   <p>
     <%= f.submit %>
   </p>
 
+<% if @listing.photos? %>
   <strong>Photos</strong><br>
-  <% if @listing.photos? %>
-  <% @listing.photos.each do |photo| %>
-  <%= image_tag(photo) %>
-  <% end %>
-  <% end %> 
+    <% @listing.photos.each do |photo| %>
+      <%= image_tag(photo) %>
+    <% end %>
+<% end %>
 </p>
 
 <% if signed_in? and current_user.moderator? %>
 <%= f.label "Status" %><br>
 <%= f.number_field :status %><br>
 <% end %>
-</p>
+
 
 
 <% end %>

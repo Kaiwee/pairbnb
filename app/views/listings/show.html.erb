@@ -20,8 +20,8 @@
 
 
 <h1>
-	<strong>Pictures</strong><br>
 	<% if @listing.photos? %>
+	<strong>Pictures</strong><br>
 		<% @listing.photos.each do |photo| %>
 			<%= image_tag(photo) %>
 		<% end %>
