@@ -8,7 +8,7 @@
   </div>
 
 <%  @listings.each do |listing| %>
-<div class="col-md-12">
+<div class="col-md-3">
   <div class="well">
           <p> <%= listing.id %> </p>
           <p> <%= listing.title %> </p>     
@@ -19,41 +19,16 @@
 
           <% if signed_in? and current_user.moderator? %>
           <p> <%= link_to 'Verify', edit_listing_path(listing) %> </p>
-          <% end %>  
+          <% end %>
+  </div>
+</div>  
 <% end %>
-</div>
-</div>
 
 
 <br>
 <div class="pagination">
-    <div class="page_info">
-      <%= page_entries_info @listings %>
-    </div>
-    <%= will_paginate @listings, :container => false %>
+  <div class="page_info">
+    <%= page_entries_info @listings %>
   </div>
-
-
-  <div class="div-one">
-    <div class="para-one">
-      <h1>About Us</h1>
-    A place to host or rent a great place.</div>
-    <div class="para-two">
-      <h1>Why use us</h1>
-      Convenient and safe.
-    </div>
-  </div>
+  <%= will_paginate @listings, :container => false %>
 </div>
-<div class="pusher"></div>
-<div id="footer">
-  <ul>
-    <li><%= link_to "About Us", about_path %></li>
-    <li>Privacy</li>
-    <li>Terms</li>
-    <li>Contact Us</li>
-    <li>Signup for newsletter</li>
-    <li>© Pairbnb, Inc.</li>
-  </ul>
-</div>
-
-<p><a href="#">Back to top</a></p>
