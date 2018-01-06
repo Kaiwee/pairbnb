@@ -1,5 +1,6 @@
 class Listing < ApplicationRecord
 	belongs_to :user
+	has_many :reservations
 
 	validates :title, :address, :price, presence: true
 	validates :price, numericality: { greater_than: 0 }

@@ -4,8 +4,9 @@
     <p> <%= listing.id %> </p>
     <p> <%= listing.title %> </p>     
     <p> <%= listing.address %> </p>
-    <p> <%= listing.price %> </p>
+    <p> RM <%= listing.price %> </p>
     <p> <%= listing.status %> </p>
+    <p> <%= listing.max_num_guests %> guests maximum</p>
     <p> <%= link_to 'Show', listing_path(listing) %> </p>
     <p> <%= link_to 'Edit', edit_listing_path(listing) %> </p>
 

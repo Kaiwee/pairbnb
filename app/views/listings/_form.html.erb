@@ -1,31 +1,45 @@
 <%= form_for @listing do |f| %>
-<p>
-  <%= f.label "Title" %><br>
-  <%= f.text_field :title %><br>
-  <%= f.label "Address" %><br>
-  <%= f.text_field :address %><br>
-  <%= f.label "Price" %><br>
-  <%= f.number_field :price %><br>
+  <div>
+  <%= f.label "Title" %>
+  <%= f.text_field :title %>
+  </div>
+
+  <div>
+  <%= f.label "Address" %>
+  <%= f.text_field :address %>
+  </div>
+
+  <div>
+  <%= f.label "Price" %>
+  RM <%= f.number_field :price %>
+  </div>
+
+  <div>
+  <%= f.label "Maximum number of guests" %>
+  <%= f.number_field :max_num_guests %>
+  </div>
+
+  <div>
   <%= f.label "Upload files from your computer" %>
-  <%= f.file_field :photos, multiple: true %><br>
+  <%= f.file_field :photos, multiple: true %>
+  </div>
+  <br>
+  <%= f.submit %>
 
-  <p>
-    <%= f.submit %>
-  </p>
-
-<% if @listing.photos? %>
-  <strong>Photos</strong><br>
+  <div>
+  <% if @listing.photos? %>
+    <strong>Photos</strong><br>
     <% @listing.photos.each do |photo| %>
       <%= image_tag(photo) %>
     <% end %>
-<% end %>
-</p>
+  <% end %>
+  </div>
 
-<% if signed_in? and current_user.moderator? %>
-<%= f.label "Status" %><br>
-<%= f.number_field :status %><br>
-<% end %>
-
-
+  <div>
+  <% if signed_in? and current_user.moderator? %>
+    <%= f.label "Status" %><br>
+    <%= f.number_field :status %><br>
+  <% end %>
+  </div>
 
 <% end %>

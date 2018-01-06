@@ -3,6 +3,7 @@ class User < ApplicationRecord
 
 	has_many :listings
 	has_many :authentications, :dependent => :destroy
+	has_many :reservations
 
 	# User authorization
 	enum status: { customer: 0, moderator: 1, superadmin: 2 }

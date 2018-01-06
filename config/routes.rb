@@ -23,5 +23,9 @@ Rails.application.routes.draw do
   resources :users, only: [:show, :edit, :update, :destroy]
 
   # Listings
-  resources :listings
+  resources :listings do
+    resources :reservations, only: [:index, :create, :destroy]
+  end
+
+  # resources :reservations, only: [:destroy] # do this?
 end

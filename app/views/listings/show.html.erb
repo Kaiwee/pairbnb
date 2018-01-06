@@ -14,10 +14,13 @@
 </h1>
 
 <h1>
+	<%= @listing.max_num_guests %> guests maximum	
+</h1>
+
+<h1>
 	<strong>Status:</strong>
 	<%= @listing.status %>		
 </h1>
-
 
 <h1>
 	<% if @listing.photos? %>
@@ -27,3 +30,9 @@
 		<% end %>
 	<% end %>	
 </h1>
+
+<% if current_user.id != @listing.user_id %>
+<div class="well">
+<%= render 'reservations/form' %>
+</div>
+<% end %>
