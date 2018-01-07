@@ -1,6 +1,12 @@
 <h3>Booking</h3>
 
 <%= form_for [@listing, @reservation] do |f| %>
+  <% if @errors.present? %>
+    <div>
+      <%= @errors %>
+    </div>
+  <% end %>
+
   <div>
   <%= f.label "Start date" %>
   <%= f.date_field :start_date  %>
