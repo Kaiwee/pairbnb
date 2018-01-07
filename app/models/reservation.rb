@@ -13,15 +13,28 @@ class Reservation < ApplicationRecord
   end
 
   def check_max_num_guests
+  	if num_guests.present?
   	return if num_guests <= listing.max_num_guests
   	errors.add(:Maximum_number_of_guests_is_exceeded, "")
+  	end
   end
 
   def valid_date
-  	if start_date > DateTime.now and end_date > start_date
-  		return 
-  	else
-  		errors.add(:Dates_are_invalid, "")
+  	if start_date.present? and end_date.present?
+  		if start_date > DateTime.now and end_date > start_date
+  			return 
+  		else
+  			errors.add(:Dates_are_invalid, "")
+  		end
   	end
   end
+
+    def total_price
+    if start_date.present? and end_date.present?
+    	price = listing.price
+    	num_dates = ((start_date..end_date).to_a.length) - 1
+    	return price * num_dates
+    end	
+  end
+
 end

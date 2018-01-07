@@ -13,3 +13,25 @@
 
 </div>
 
+<h2>My Bookings</h2>
+<table>
+  <tr>
+    <th>Listing Title</th>
+    <th>Start Date</th>
+    <th>End Date</th>
+    <th>Num Guests</th>
+    <th>Total Price</th>
+    <th>Actions</th>
+  </tr>
+
+  <% @reservations.each do |reservation| %>
+    <tr>
+      <td><%= link_to reservation.listing.title, reservation.listing %></td>
+      <td><%= reservation.start_date.try(:strftime, '%d %B %Y') %></td>
+      <td><%= reservation.end_date.try(:strftime, '%d %B %Y') %></td>
+      <td><%= reservation.num_guests %></td>
+      <td><%= reservation.total_price %></td>
+
+    </tr>
+  <% end %>
+</table>
