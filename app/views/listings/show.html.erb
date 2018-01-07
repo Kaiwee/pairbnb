@@ -31,13 +31,17 @@
 	<% end %>	
 </h1>
 
-<% if current_user.id != @listing.user_id %>
-<div class="well">
-<%= render 'reservations/form' %>
-</div>
+<% if signed_in? and current_user.id != @listing.user_id %>
+	<div class="well">
+		<%= render 'reservations/form' %>
+	</div>
 <% end %>
 
-<% if current_user.id == @listing.user_id %>
+<% if !signed_in? %>
+	<p>You need to sign in or sign up to be able to book</p>
+<% end %>
+
+<% if signed_in? and current_user.id == @listing.user_id %>
 	<h2>Customer Bookings</h2>
 	<table>
 	  <tr>
