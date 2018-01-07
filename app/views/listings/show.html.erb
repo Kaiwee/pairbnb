@@ -36,3 +36,31 @@
 <%= render 'reservations/form' %>
 </div>
 <% end %>
+
+<% if current_user.id == @listing.user_id %>
+	<h2>Customer Bookings</h2>
+	<table>
+	  <tr>
+	  	<th>Reservation ID</th>
+	    <th>Listing Title</th>
+	    <th>Start Date</th>
+	    <th>End Date</th>
+	    <th>Num Guests</th>
+	    <th>Total Price</th>
+	    <th>Actions</th>
+	  </tr>
+
+	  <% @reservations.each do |reservation| %>
+	    <tr>
+	      <td><%= reservation.id %></td>
+	      <td><%= link_to reservation.listing.title, reservation.listing %></td>
+	      <td><%= reservation.start_date.try(:strftime, '%d %B %Y') %></td>
+	      <td><%= reservation.end_date.try(:strftime, '%d %B %Y') %></td>
+	      <td><%= reservation.num_guests %></td>
+	      <td><%= reservation.total_price %></td>
+	       <td><%= link_to 'Cancel Booking', reservation_path, method: :delete, data: {confirm: 'Are you sure?' } %></td>
+	    </tr>
+	    </tr>
+	  <% end %>
+	</table>
+<% end %>
