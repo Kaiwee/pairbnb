@@ -31,7 +31,7 @@
       <td><%= reservation.end_date.try(:strftime, '%d %B %Y') %></td>
       <td><%= reservation.num_guests %></td>
       <td><%= reservation.total_price %></td>
-
+      <td><%= link_to 'Cancel Booking', reservation, method: :delete, data: {confirm: 'Are you sure?' } %></td>
     </tr>
   <% end %>
 </table>

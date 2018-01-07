@@ -24,8 +24,8 @@ Rails.application.routes.draw do
 
   # Listings
   resources :listings do
-    resources :reservations, only: [:index, :create, :destroy]
+    resources :reservations, only: [:index, :create]
   end
 
-  # resources :reservations, only: [:destroy] # do this?
+  resources :reservations, only: [:destroy] # do this?
 end
