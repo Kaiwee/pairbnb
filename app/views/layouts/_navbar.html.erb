@@ -9,7 +9,7 @@
 		<% if signed_in? %>
 			<li><%= link_to "Host a home", new_listing_path %></li>
 			<li><%= link_to "My Listings", listings_path %></li>
-			<li><%= current_user.email %></li>
+			<li><%= link_to current_user.email, user_path(current_user) %></li>
 			<li><%= link_to "Edit Profile", edit_user_path(current_user.id) %></li>
 			<li><%= link_to "Sign out", sign_out_path, method: :delete, data: { confirm: 'Sign out?' } %></li>
 			<% if current_user.image? %>

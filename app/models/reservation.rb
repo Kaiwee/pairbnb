@@ -10,12 +10,22 @@ class Reservation < ApplicationRecord
   validate :valid_date # prevent reservation date before today
 
   def check_overlapping_dates
+    # compare this new reservation againsts existing reservations
+    listing.reservations.each do |old_reservation|
+      if overlap?(self, old_reservation)
+        return errors.add(:The_dates_are_not_available, "")
+      end
+    end
+  end
+
+  def overlap?(x,y)
+    (x.start_date - y.end_date) * (y.start_date - x.end_date) > 0
   end
 
   def check_max_num_guests
   	if num_guests.present?
-  	return if num_guests <= listing.max_num_guests
-  	errors.add(:Maximum_number_of_guests_is_exceeded, "")
+  	 return if num_guests <= listing.max_num_guests
+  	 errors.add(:Maximum_number_of_guests_is_exceeded, "")
   	end
   end
 
