@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   # Static Pages
   root 'static#index'
   get 'about' => 'static#about', as: "about"
@@ -28,4 +29,8 @@ Rails.application.routes.draw do
   end
 
   resources :reservations, only: [:destroy] # do this?
+
+  get 'braintree/new'
+  
+  post 'braintree/checkout'
 end
