@@ -39,12 +39,18 @@ class Reservation < ApplicationRecord
   	end
   end
 
-    def total_price
+  def total_price
     if start_date.present? and end_date.present?
     	price = listing.price
     	num_dates = ((start_date..end_date).to_a.length) - 1
     	return price * num_dates
     end	
+  end
+
+  def num_night
+    if start_date.present? and end_date.present?
+    num_dates = ((start_date..end_date).to_a.length) - 1
+    end
   end
 
 end

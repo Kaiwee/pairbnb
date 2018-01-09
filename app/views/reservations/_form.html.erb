@@ -2,7 +2,7 @@
 
 <%= form_for [@listing, @reservation] do |f| %>
   <% if @errors.present? %>
-    <div>
+    <div class="alert alert-warning">
       <%= @errors %>
     </div>
   <% end %>
