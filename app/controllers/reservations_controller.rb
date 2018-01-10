@@ -1,6 +1,9 @@
 class ReservationsController < ApplicationController
 	def index
+	end
 
+	def show
+		@reservation = Reservation.find(params[:id])
 	end
 
 	def create
@@ -9,6 +12,7 @@ class ReservationsController < ApplicationController
 		@reservation = current_user.reservations.new(reservation_params)
 		@reservation.listing = @listing # not understand(to insert listing_id to database,but how?)
 		if @reservation.save
+			ReservationMailer.booking_email(@reservation).deliver_now
 			redirect_to braintree_new_reservation_path(@reservation)
 		else
 			@errors = @reservation.errors.full_messages

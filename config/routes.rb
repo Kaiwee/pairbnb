@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   # Static Pages
   root 'static#index'
   get 'about' => 'static#about', as: "about"
+  get 'contact_us' => 'static#contact_us', as: "contact_us"
 
   # Clearance Default Routes
   resources :passwords, controller: "clearance/passwords", only: [:create, :new]
@@ -34,5 +35,7 @@ Rails.application.routes.draw do
       post 'braintree/checkout'
     end
   end
+
+  get "/reservations/:id" => "reservations#show"
 
 end
