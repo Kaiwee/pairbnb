@@ -28,9 +28,11 @@ Rails.application.routes.draw do
     resources :reservations, only: [:index, :create]
   end
 
-  resources :reservations, only: [:destroy] # do this?
+  resources :reservations, only: [:destroy] do # do this? 
+    member do
+      get 'braintree/new'
+      post 'braintree/checkout'
+    end
+  end
 
-  get 'braintree/new'
-  
-  post 'braintree/checkout'
 end

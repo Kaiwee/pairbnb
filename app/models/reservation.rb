@@ -11,9 +11,11 @@ class Reservation < ApplicationRecord
 
   def check_overlapping_dates
     # compare this new reservation againsts existing reservations
-    listing.reservations.each do |old_reservation|
-      if overlap?(self, old_reservation)
-        return errors.add(:The_dates_are_not_available, "")
+    if start_date.present? and end_date.present?
+      listing.reservations.each do |old_reservation|
+        if overlap?(self, old_reservation)
+          return errors.add(:The_dates_are_not_available, "")
+        end
       end
     end
   end
@@ -49,7 +51,7 @@ class Reservation < ApplicationRecord
 
   def num_night
     if start_date.present? and end_date.present?
-    num_dates = ((start_date..end_date).to_a.length) - 1
+      num_dates = ((start_date..end_date).to_a.length) - 1
     end
   end
 
