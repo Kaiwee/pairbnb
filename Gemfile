@@ -12,8 +12,10 @@ gem 'rails', '~> 5.1.4'
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
-# Use SCSS for stylesheets
+# Use Bootstrap & SCSS for stylesheets
+gem 'bootstrap-sass', '~> 3.3.7'
 gem 'sass-rails', '~> 5.0'
+gem 'jquery-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -32,6 +34,32 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# Use Clearance to incorporate an authentication system for users
+gem "clearance"
+
+# Use figaro to securely configure Rails applications
+gem 'figaro'
+
+# Use omniauth and associated gems to authenticate users via disparate systems
+gem 'omniauth'
+gem 'omniauth-facebook'
+
+# Use will_paginate for pagination
+gem 'will_paginate', '~> 3.1.0'
+
+# Use carrierwave to upload images, MiniMagick to process them.
+gem 'carrierwave', '~> 1.0'
+gem "mini_magick"
+
+# Use fog to upload images to AWS S3
+gem 'fog-aws'
+
+# Use braintree to integrate the Braintree payment system using Sandbox account
+gem 'braintree'
+
+# Use sidekiq to create a background job to send email asynchronously
+gem 'sidekiq'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -1,0 +1,43 @@
+
+
+<div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8 col-md-offset-2">
+		<h3>Email: <span class="text-primary"><%= current_user.email %><br></span></h3>
+		<hr>
+		<h3>Profile Picture:</h3>
+			<% if !current_user.image.present? %>
+        <%= image_tag "http://placehold.it/770x300&text=no images for profile", class:"img-responsive" %>
+      <% else %>
+				<%= image_tag(current_user.image) %><br>
+			<% end %>		
+		<button class="btn btn-default"><%= link_to 'Edit Profile', edit_user_path(@user) %></button> 
+	</div>
+	<div class="col-md-2"></div>
+
+</div>
+
+<h2>My Bookings</h2>
+<table>
+  <tr>
+    <th>Listing Title</th>
+    <th>Start Date</th>
+    <th>End Date</th>
+    <th>Number of night(s)</th>
+    <th>Num Guests</th>
+    <th>Total Price</th>
+    <th>Actions</th>
+  </tr>
+
+  <% @reservations.each do |reservation| %>
+    <tr>
+      <td><%= link_to reservation.listing.title, reservation.listing %></td>
+      <td><%= reservation.start_date.try(:strftime, '%d %B %Y') %></td>
+      <td><%= reservation.end_date.try(:strftime, '%d %B %Y') %></td>
+      <td><%= reservation.num_night %></td>
+      <td><%= reservation.num_guests %></td>
+      <td><%= reservation.total_price %></td>
+      <td><%= link_to 'Cancel Booking', reservation, method: :delete, data: {confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>

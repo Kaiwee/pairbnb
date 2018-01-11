@@ -1,0 +1,2186 @@
+# Logfile created on 2018-01-09 23:59:59 +0800 by logger.rb/56815
+D, [2018-01-10T00:55:30.430211 #3587] DEBUG -- : [Braintree] [09/Jan/2018 16:55:30 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T00:55:30.430552 #3587] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T00:55:31.252606 #3587]  INFO -- : [Braintree] [09/Jan/2018 16:55:31 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T00:55:31.252724 #3587] DEBUG -- : [Braintree] [09/Jan/2018 16:55:31 UTC] 201 Created
+D, [2018-01-10T00:55:31.253454 #3587] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI5NTZlM2NmMmI0N2E0MTg5MTliOTQ0MWE0NWYzNWIxMzE5ZmMyNmQwMzk5NWM0N2IwOGJhZDhjYTkzOTQwZmE5fGNyZWF0ZWRfYXQ9MjAxOC0wMS0wOVQxNjo1NTozMC42NjczMTA1NTYrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T00:57:49.596450 #3763] DEBUG -- : [Braintree] [09/Jan/2018 16:57:49 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T00:57:49.596634 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T00:57:49.822278 #3763]  INFO -- : [Braintree] [09/Jan/2018 16:57:49 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T00:57:49.822403 #3763] DEBUG -- : [Braintree] [09/Jan/2018 16:57:49 UTC] 201 Created
+D, [2018-01-10T00:57:49.823079 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIwMWVlZTA5NzZjMGIzNDllYWNkN2ZiOTMxMzcwN2FjOWNiYzY1NmE1YjhhYzFjZDE1N2IzYjEzMTY0NGU3YTQ2fGNyZWF0ZWRfYXQ9MjAxOC0wMS0wOVQxNjo1Nzo0OS43MTgwMDU4NTYrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T00:58:28.189132 #3763] DEBUG -- : [Braintree] [09/Jan/2018 16:58:28 UTC] POST /merchants/75dm8y9q85trszq5/transactions
+D, [2018-01-10T00:58:28.189312 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <payment-method-nonce>b04736f4-49b8-0237-526d-42f96cae5438</payment-method-nonce>
+[Braintree]   <options>
+[Braintree]     <submit-for-settlement type="boolean">true</submit-for-settlement>
+[Braintree]   </options>
+[Braintree]   <type>sale</type>
+[Braintree] </transaction>
+
+I, [2018-01-10T00:58:29.430765 #3763]  INFO -- : [Braintree] [09/Jan/2018 16:58:29 UTC] POST /merchants/75dm8y9q85trszq5/transactions 201
+D, [2018-01-10T00:58:29.430886 #3763] DEBUG -- : [Braintree] [09/Jan/2018 16:58:29 UTC] 201 Created
+D, [2018-01-10T00:58:29.431315 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <id>eaa2gftj</id>
+[Braintree]   <status>submitted_for_settlement</status>
+[Braintree]   <type>sale</type>
+[Braintree]   <currency-iso-code>USD</currency-iso-code>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <merchant-account-id>nextacademy</merchant-account-id>
+[Braintree]   <sub-merchant-account-id nil="true"/>
+[Braintree]   <master-merchant-account-id nil="true"/>
+[Braintree]   <order-id nil="true"/>
+[Braintree]   <created-at type="datetime">2018-01-09T16:58:28Z</created-at>
+[Braintree]   <updated-at type="datetime">2018-01-09T16:58:28Z</updated-at>
+[Braintree]   <customer>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <email nil="true"/>
+[Braintree]     <website nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <fax nil="true"/>
+[Braintree]   </customer>
+[Braintree]   <billing>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </billing>
+[Braintree]   <refund-id nil="true"/>
+[Braintree]   <refund-ids type="array"/>
+[Braintree]   <refunded-transaction-id nil="true"/>
+[Braintree]   <partial-settlement-transaction-ids type="array"/>
+[Braintree]   <authorized-transaction-id nil="true"/>
+[Braintree]   <settlement-batch-id nil="true"/>
+[Braintree]   <shipping>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </shipping>
+[Braintree]   <custom-fields/>
+[Braintree]   <avs-error-response-code nil="true"/>
+[Braintree]   <avs-postal-code-response-code>I</avs-postal-code-response-code>
+[Braintree]   <avs-street-address-response-code>I</avs-street-address-response-code>
+[Braintree]   <cvv-response-code>M</cvv-response-code>
+[Braintree]   <gateway-rejection-reason nil="true"/>
+[Braintree]   <processor-authorization-code>Y41NM6</processor-authorization-code>
+[Braintree]   <processor-response-code>1000</processor-response-code>
+[Braintree]   <processor-response-text>Approved</processor-response-text>
+[Braintree]   <additional-processor-response nil="true"/>
+[Braintree]   <voice-referral-number nil="true"/>
+[Braintree]   <purchase-order-number nil="true"/>
+[Braintree]   <tax-amount nil="true"/>
+[Braintree]   <tax-exempt type="boolean">false</tax-exempt>
+[Braintree]   <credit-card>
+[Braintree]     <token nil="true"/>
+[Braintree]     <bin>411111</bin>
+[Braintree]     <last-4>1111</last-4>
+[Braintree]     <card-type>Visa</card-type>
+[Braintree]     <expiration-month>10</expiration-month>
+[Braintree]     <expiration-year>2019</expiration-year>
+[Braintree]     <customer-location>US</customer-location>
+[Braintree]     <cardholder-name nil="true"/>
+[Braintree]     <image-url>https://assets.braintreegateway.com/payment_method_logo/visa.png?environment=sandbox</image-url>
+[Braintree]     <prepaid>Unknown</prepaid>
+[Braintree]     <healthcare>Unknown</healthcare>
+[Braintree]     <debit>Unknown</debit>
+[Braintree]     <durbin-regulated>Unknown</durbin-regulated>
+[Braintree]     <commercial>Unknown</commercial>
+[Braintree]     <payroll>Unknown</payroll>
+[Braintree]     <issuing-bank>Unknown</issuing-bank>
+[Braintree]     <country-of-issuance>Unknown</country-of-issuance>
+[Braintree]     <product-id>Unknown</product-id>
+[Braintree]     <unique-number-identifier nil="true"/>
+[Braintree]     <venmo-sdk type="boolean">false</venmo-sdk>
+[Braintree]   </credit-card>
+[Braintree]   <status-history type="array">
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T16:58:28Z</timestamp>
+[Braintree]       <status>authorized</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T16:58:28Z</timestamp>
+[Braintree]       <status>submitted_for_settlement</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]   </status-history>
+[Braintree]   <plan-id nil="true"/>
+[Braintree]   <subscription-id nil="true"/>
+[Braintree]   <subscription>
+[Braintree]     <billing-period-end-date nil="true"/>
+[Braintree]     <billing-period-start-date nil="true"/>
+[Braintree]   </subscription>
+[Braintree]   <add-ons type="array"/>
+[Braintree]   <discounts type="array"/>
+[Braintree]   <descriptor>
+[Braintree]     <name nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <url nil="true"/>
+[Braintree]   </descriptor>
+[Braintree]   <recurring type="boolean">false</recurring>
+[Braintree]   <channel nil="true"/>
+[Braintree]   <service-fee-amount nil="true"/>
+[Braintree]   <escrow-status nil="true"/>
+[Braintree]   <disbursement-details>
+[Braintree]     <disbursement-date nil="true"/>
+[Braintree]     <settlement-amount nil="true"/>
+[Braintree]     <settlement-currency-iso-code nil="true"/>
+[Braintree]     <settlement-currency-exchange-rate nil="true"/>
+[Braintree]     <funds-held nil="true"/>
+[Braintree]     <success nil="true"/>
+[Braintree]   </disbursement-details>
+[Braintree]   <disputes type="array"/>
+[Braintree]   <authorization-adjustments type="array"/>
+[Braintree]   <payment-instrument-type>credit_card</payment-instrument-type>
+[Braintree]   <processor-settlement-response-code></processor-settlement-response-code>
+[Braintree]   <processor-settlement-response-text></processor-settlement-response-text>
+[Braintree]   <three-d-secure-info nil="true"/>
+[Braintree]   <ships-from-postal-code nil="true"/>
+[Braintree]   <shipping-amount nil="true"/>
+[Braintree]   <discount-amount nil="true"/>
+[Braintree] </transaction>
+
+D, [2018-01-10T01:02:52.990074 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:02:52 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T01:02:52.990219 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T01:02:53.728702 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:02:53 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T01:02:53.728778 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:02:53 UTC] 201 Created
+D, [2018-01-10T01:02:53.728936 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJkNmI2NzBlOTAyZGM0ZjgwNjVlYWQ1ZmIzN2ZhOTkxYmYxNTFkNTY1ZDM4MTc5YTFiMTY2NGY2ODU0NTFhYTEwfGNyZWF0ZWRfYXQ9MjAxOC0wMS0wOVQxNzowMjo1My4xOTMwMzA3ODYrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T01:03:06.335250 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:03:06 UTC] POST /merchants/75dm8y9q85trszq5/transactions
+D, [2018-01-10T01:03:06.338792 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <payment-method-nonce>d785a9a3-6a49-08cc-593c-ba326a4828a1</payment-method-nonce>
+[Braintree]   <options>
+[Braintree]     <submit-for-settlement type="boolean">true</submit-for-settlement>
+[Braintree]   </options>
+[Braintree]   <type>sale</type>
+[Braintree] </transaction>
+
+I, [2018-01-10T01:03:07.856939 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:03:07 UTC] POST /merchants/75dm8y9q85trszq5/transactions 201
+D, [2018-01-10T01:03:07.857066 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:03:07 UTC] 201 Created
+D, [2018-01-10T01:03:07.857532 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <id>d6rqrjv7</id>
+[Braintree]   <status>submitted_for_settlement</status>
+[Braintree]   <type>sale</type>
+[Braintree]   <currency-iso-code>USD</currency-iso-code>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <merchant-account-id>nextacademy</merchant-account-id>
+[Braintree]   <sub-merchant-account-id nil="true"/>
+[Braintree]   <master-merchant-account-id nil="true"/>
+[Braintree]   <order-id nil="true"/>
+[Braintree]   <created-at type="datetime">2018-01-09T17:03:07Z</created-at>
+[Braintree]   <updated-at type="datetime">2018-01-09T17:03:07Z</updated-at>
+[Braintree]   <customer>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <email nil="true"/>
+[Braintree]     <website nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <fax nil="true"/>
+[Braintree]   </customer>
+[Braintree]   <billing>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </billing>
+[Braintree]   <refund-id nil="true"/>
+[Braintree]   <refund-ids type="array"/>
+[Braintree]   <refunded-transaction-id nil="true"/>
+[Braintree]   <partial-settlement-transaction-ids type="array"/>
+[Braintree]   <authorized-transaction-id nil="true"/>
+[Braintree]   <settlement-batch-id nil="true"/>
+[Braintree]   <shipping>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </shipping>
+[Braintree]   <custom-fields/>
+[Braintree]   <avs-error-response-code nil="true"/>
+[Braintree]   <avs-postal-code-response-code>I</avs-postal-code-response-code>
+[Braintree]   <avs-street-address-response-code>I</avs-street-address-response-code>
+[Braintree]   <cvv-response-code>M</cvv-response-code>
+[Braintree]   <gateway-rejection-reason nil="true"/>
+[Braintree]   <processor-authorization-code>V84956</processor-authorization-code>
+[Braintree]   <processor-response-code>1000</processor-response-code>
+[Braintree]   <processor-response-text>Approved</processor-response-text>
+[Braintree]   <additional-processor-response nil="true"/>
+[Braintree]   <voice-referral-number nil="true"/>
+[Braintree]   <purchase-order-number nil="true"/>
+[Braintree]   <tax-amount nil="true"/>
+[Braintree]   <tax-exempt type="boolean">false</tax-exempt>
+[Braintree]   <credit-card>
+[Braintree]     <token nil="true"/>
+[Braintree]     <bin>411111</bin>
+[Braintree]     <last-4>1111</last-4>
+[Braintree]     <card-type>Visa</card-type>
+[Braintree]     <expiration-month>10</expiration-month>
+[Braintree]     <expiration-year>2019</expiration-year>
+[Braintree]     <customer-location>US</customer-location>
+[Braintree]     <cardholder-name nil="true"/>
+[Braintree]     <image-url>https://assets.braintreegateway.com/payment_method_logo/visa.png?environment=sandbox</image-url>
+[Braintree]     <prepaid>Unknown</prepaid>
+[Braintree]     <healthcare>Unknown</healthcare>
+[Braintree]     <debit>Unknown</debit>
+[Braintree]     <durbin-regulated>Unknown</durbin-regulated>
+[Braintree]     <commercial>Unknown</commercial>
+[Braintree]     <payroll>Unknown</payroll>
+[Braintree]     <issuing-bank>Unknown</issuing-bank>
+[Braintree]     <country-of-issuance>Unknown</country-of-issuance>
+[Braintree]     <product-id>Unknown</product-id>
+[Braintree]     <unique-number-identifier nil="true"/>
+[Braintree]     <venmo-sdk type="boolean">false</venmo-sdk>
+[Braintree]   </credit-card>
+[Braintree]   <status-history type="array">
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:03:07Z</timestamp>
+[Braintree]       <status>authorized</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:03:07Z</timestamp>
+[Braintree]       <status>submitted_for_settlement</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]   </status-history>
+[Braintree]   <plan-id nil="true"/>
+[Braintree]   <subscription-id nil="true"/>
+[Braintree]   <subscription>
+[Braintree]     <billing-period-end-date nil="true"/>
+[Braintree]     <billing-period-start-date nil="true"/>
+[Braintree]   </subscription>
+[Braintree]   <add-ons type="array"/>
+[Braintree]   <discounts type="array"/>
+[Braintree]   <descriptor>
+[Braintree]     <name nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <url nil="true"/>
+[Braintree]   </descriptor>
+[Braintree]   <recurring type="boolean">false</recurring>
+[Braintree]   <channel nil="true"/>
+[Braintree]   <service-fee-amount nil="true"/>
+[Braintree]   <escrow-status nil="true"/>
+[Braintree]   <disbursement-details>
+[Braintree]     <disbursement-date nil="true"/>
+[Braintree]     <settlement-amount nil="true"/>
+[Braintree]     <settlement-currency-iso-code nil="true"/>
+[Braintree]     <settlement-currency-exchange-rate nil="true"/>
+[Braintree]     <funds-held nil="true"/>
+[Braintree]     <success nil="true"/>
+[Braintree]   </disbursement-details>
+[Braintree]   <disputes type="array"/>
+[Braintree]   <authorization-adjustments type="array"/>
+[Braintree]   <payment-instrument-type>credit_card</payment-instrument-type>
+[Braintree]   <processor-settlement-response-code></processor-settlement-response-code>
+[Braintree]   <processor-settlement-response-text></processor-settlement-response-text>
+[Braintree]   <three-d-secure-info nil="true"/>
+[Braintree]   <ships-from-postal-code nil="true"/>
+[Braintree]   <shipping-amount nil="true"/>
+[Braintree]   <discount-amount nil="true"/>
+[Braintree] </transaction>
+
+D, [2018-01-10T01:15:46.872119 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:15:46 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T01:15:46.872303 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T01:15:47.482642 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:15:47 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T01:15:47.482770 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:15:47 UTC] 201 Created
+D, [2018-01-10T01:15:47.483058 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJhNWUwZjY2MzM5YzI4MGU5NzFjMzZmYjYzYzg4MTBkYzAyZjM1ZWJiYmViZWE2MDcxZjZmYzE5YTYyODZlMGMyfGNyZWF0ZWRfYXQ9MjAxOC0wMS0wOVQxNzoxNTo0Ny4wNjU5NDA2MTUrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T01:16:14.153963 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:16:14 UTC] POST /merchants/75dm8y9q85trszq5/transactions
+D, [2018-01-10T01:16:14.155265 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <payment-method-nonce>b772ff2c-7068-032e-6ed0-7094428d94c4</payment-method-nonce>
+[Braintree]   <options>
+[Braintree]     <submit-for-settlement type="boolean">true</submit-for-settlement>
+[Braintree]   </options>
+[Braintree]   <type>sale</type>
+[Braintree] </transaction>
+
+I, [2018-01-10T01:16:15.539876 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:16:15 UTC] POST /merchants/75dm8y9q85trszq5/transactions 201
+D, [2018-01-10T01:16:15.540074 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:16:15 UTC] 201 Created
+D, [2018-01-10T01:16:15.540699 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <id>mjbmcpmk</id>
+[Braintree]   <status>submitted_for_settlement</status>
+[Braintree]   <type>sale</type>
+[Braintree]   <currency-iso-code>USD</currency-iso-code>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <merchant-account-id>nextacademy</merchant-account-id>
+[Braintree]   <sub-merchant-account-id nil="true"/>
+[Braintree]   <master-merchant-account-id nil="true"/>
+[Braintree]   <order-id nil="true"/>
+[Braintree]   <created-at type="datetime">2018-01-09T17:16:14Z</created-at>
+[Braintree]   <updated-at type="datetime">2018-01-09T17:16:15Z</updated-at>
+[Braintree]   <customer>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <email nil="true"/>
+[Braintree]     <website nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <fax nil="true"/>
+[Braintree]   </customer>
+[Braintree]   <billing>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </billing>
+[Braintree]   <refund-id nil="true"/>
+[Braintree]   <refund-ids type="array"/>
+[Braintree]   <refunded-transaction-id nil="true"/>
+[Braintree]   <partial-settlement-transaction-ids type="array"/>
+[Braintree]   <authorized-transaction-id nil="true"/>
+[Braintree]   <settlement-batch-id nil="true"/>
+[Braintree]   <shipping>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </shipping>
+[Braintree]   <custom-fields/>
+[Braintree]   <avs-error-response-code nil="true"/>
+[Braintree]   <avs-postal-code-response-code>I</avs-postal-code-response-code>
+[Braintree]   <avs-street-address-response-code>I</avs-street-address-response-code>
+[Braintree]   <cvv-response-code>M</cvv-response-code>
+[Braintree]   <gateway-rejection-reason nil="true"/>
+[Braintree]   <processor-authorization-code>53GQD9</processor-authorization-code>
+[Braintree]   <processor-response-code>1000</processor-response-code>
+[Braintree]   <processor-response-text>Approved</processor-response-text>
+[Braintree]   <additional-processor-response nil="true"/>
+[Braintree]   <voice-referral-number nil="true"/>
+[Braintree]   <purchase-order-number nil="true"/>
+[Braintree]   <tax-amount nil="true"/>
+[Braintree]   <tax-exempt type="boolean">false</tax-exempt>
+[Braintree]   <credit-card>
+[Braintree]     <token nil="true"/>
+[Braintree]     <bin>411111</bin>
+[Braintree]     <last-4>1111</last-4>
+[Braintree]     <card-type>Visa</card-type>
+[Braintree]     <expiration-month>10</expiration-month>
+[Braintree]     <expiration-year>2019</expiration-year>
+[Braintree]     <customer-location>US</customer-location>
+[Braintree]     <cardholder-name nil="true"/>
+[Braintree]     <image-url>https://assets.braintreegateway.com/payment_method_logo/visa.png?environment=sandbox</image-url>
+[Braintree]     <prepaid>Unknown</prepaid>
+[Braintree]     <healthcare>Unknown</healthcare>
+[Braintree]     <debit>Unknown</debit>
+[Braintree]     <durbin-regulated>Unknown</durbin-regulated>
+[Braintree]     <commercial>Unknown</commercial>
+[Braintree]     <payroll>Unknown</payroll>
+[Braintree]     <issuing-bank>Unknown</issuing-bank>
+[Braintree]     <country-of-issuance>Unknown</country-of-issuance>
+[Braintree]     <product-id>Unknown</product-id>
+[Braintree]     <unique-number-identifier nil="true"/>
+[Braintree]     <venmo-sdk type="boolean">false</venmo-sdk>
+[Braintree]   </credit-card>
+[Braintree]   <status-history type="array">
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:16:14Z</timestamp>
+[Braintree]       <status>authorized</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:16:15Z</timestamp>
+[Braintree]       <status>submitted_for_settlement</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]   </status-history>
+[Braintree]   <plan-id nil="true"/>
+[Braintree]   <subscription-id nil="true"/>
+[Braintree]   <subscription>
+[Braintree]     <billing-period-end-date nil="true"/>
+[Braintree]     <billing-period-start-date nil="true"/>
+[Braintree]   </subscription>
+[Braintree]   <add-ons type="array"/>
+[Braintree]   <discounts type="array"/>
+[Braintree]   <descriptor>
+[Braintree]     <name nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <url nil="true"/>
+[Braintree]   </descriptor>
+[Braintree]   <recurring type="boolean">false</recurring>
+[Braintree]   <channel nil="true"/>
+[Braintree]   <service-fee-amount nil="true"/>
+[Braintree]   <escrow-status nil="true"/>
+[Braintree]   <disbursement-details>
+[Braintree]     <disbursement-date nil="true"/>
+[Braintree]     <settlement-amount nil="true"/>
+[Braintree]     <settlement-currency-iso-code nil="true"/>
+[Braintree]     <settlement-currency-exchange-rate nil="true"/>
+[Braintree]     <funds-held nil="true"/>
+[Braintree]     <success nil="true"/>
+[Braintree]   </disbursement-details>
+[Braintree]   <disputes type="array"/>
+[Braintree]   <authorization-adjustments type="array"/>
+[Braintree]   <payment-instrument-type>credit_card</payment-instrument-type>
+[Braintree]   <processor-settlement-response-code></processor-settlement-response-code>
+[Braintree]   <processor-settlement-response-text></processor-settlement-response-text>
+[Braintree]   <three-d-secure-info nil="true"/>
+[Braintree]   <ships-from-postal-code nil="true"/>
+[Braintree]   <shipping-amount nil="true"/>
+[Braintree]   <discount-amount nil="true"/>
+[Braintree] </transaction>
+
+D, [2018-01-10T01:21:05.871057 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:21:05 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T01:21:05.872376 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T01:21:06.564548 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:21:06 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T01:21:06.564693 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:21:06 UTC] 201 Created
+D, [2018-01-10T01:21:06.564958 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIyMzRhMzRjNzgyMWQ3N2YzZTdkZTUwZTViOWNjZDNlYzg1ZWVkN2U0MTIzZWY1ZDRhZmE4Y2JmODc2ZGMzZjMxfGNyZWF0ZWRfYXQ9MjAxOC0wMS0wOVQxNzoyMTowNi4wNzExMzA1MzMrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T01:21:22.464167 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:21:22 UTC] POST /merchants/75dm8y9q85trszq5/transactions
+D, [2018-01-10T01:21:22.465524 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <payment-method-nonce>03ad9e7d-afc9-0869-22d0-6df88468cf0a</payment-method-nonce>
+[Braintree]   <options>
+[Braintree]     <submit-for-settlement type="boolean">true</submit-for-settlement>
+[Braintree]   </options>
+[Braintree]   <type>sale</type>
+[Braintree] </transaction>
+
+I, [2018-01-10T01:21:23.970524 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:21:23 UTC] POST /merchants/75dm8y9q85trszq5/transactions 201
+D, [2018-01-10T01:21:23.970649 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:21:23 UTC] 201 Created
+D, [2018-01-10T01:21:23.971104 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <id>agqg7kyn</id>
+[Braintree]   <status>submitted_for_settlement</status>
+[Braintree]   <type>sale</type>
+[Braintree]   <currency-iso-code>USD</currency-iso-code>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <merchant-account-id>nextacademy</merchant-account-id>
+[Braintree]   <sub-merchant-account-id nil="true"/>
+[Braintree]   <master-merchant-account-id nil="true"/>
+[Braintree]   <order-id nil="true"/>
+[Braintree]   <created-at type="datetime">2018-01-09T17:21:23Z</created-at>
+[Braintree]   <updated-at type="datetime">2018-01-09T17:21:23Z</updated-at>
+[Braintree]   <customer>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <email nil="true"/>
+[Braintree]     <website nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <fax nil="true"/>
+[Braintree]   </customer>
+[Braintree]   <billing>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </billing>
+[Braintree]   <refund-id nil="true"/>
+[Braintree]   <refund-ids type="array"/>
+[Braintree]   <refunded-transaction-id nil="true"/>
+[Braintree]   <partial-settlement-transaction-ids type="array"/>
+[Braintree]   <authorized-transaction-id nil="true"/>
+[Braintree]   <settlement-batch-id nil="true"/>
+[Braintree]   <shipping>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </shipping>
+[Braintree]   <custom-fields/>
+[Braintree]   <avs-error-response-code nil="true"/>
+[Braintree]   <avs-postal-code-response-code>I</avs-postal-code-response-code>
+[Braintree]   <avs-street-address-response-code>I</avs-street-address-response-code>
+[Braintree]   <cvv-response-code>M</cvv-response-code>
+[Braintree]   <gateway-rejection-reason nil="true"/>
+[Braintree]   <processor-authorization-code>YKF4NJ</processor-authorization-code>
+[Braintree]   <processor-response-code>1000</processor-response-code>
+[Braintree]   <processor-response-text>Approved</processor-response-text>
+[Braintree]   <additional-processor-response nil="true"/>
+[Braintree]   <voice-referral-number nil="true"/>
+[Braintree]   <purchase-order-number nil="true"/>
+[Braintree]   <tax-amount nil="true"/>
+[Braintree]   <tax-exempt type="boolean">false</tax-exempt>
+[Braintree]   <credit-card>
+[Braintree]     <token nil="true"/>
+[Braintree]     <bin>411111</bin>
+[Braintree]     <last-4>1111</last-4>
+[Braintree]     <card-type>Visa</card-type>
+[Braintree]     <expiration-month>10</expiration-month>
+[Braintree]     <expiration-year>2019</expiration-year>
+[Braintree]     <customer-location>US</customer-location>
+[Braintree]     <cardholder-name nil="true"/>
+[Braintree]     <image-url>https://assets.braintreegateway.com/payment_method_logo/visa.png?environment=sandbox</image-url>
+[Braintree]     <prepaid>Unknown</prepaid>
+[Braintree]     <healthcare>Unknown</healthcare>
+[Braintree]     <debit>Unknown</debit>
+[Braintree]     <durbin-regulated>Unknown</durbin-regulated>
+[Braintree]     <commercial>Unknown</commercial>
+[Braintree]     <payroll>Unknown</payroll>
+[Braintree]     <issuing-bank>Unknown</issuing-bank>
+[Braintree]     <country-of-issuance>Unknown</country-of-issuance>
+[Braintree]     <product-id>Unknown</product-id>
+[Braintree]     <unique-number-identifier nil="true"/>
+[Braintree]     <venmo-sdk type="boolean">false</venmo-sdk>
+[Braintree]   </credit-card>
+[Braintree]   <status-history type="array">
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:21:23Z</timestamp>
+[Braintree]       <status>authorized</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:21:23Z</timestamp>
+[Braintree]       <status>submitted_for_settlement</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]   </status-history>
+[Braintree]   <plan-id nil="true"/>
+[Braintree]   <subscription-id nil="true"/>
+[Braintree]   <subscription>
+[Braintree]     <billing-period-end-date nil="true"/>
+[Braintree]     <billing-period-start-date nil="true"/>
+[Braintree]   </subscription>
+[Braintree]   <add-ons type="array"/>
+[Braintree]   <discounts type="array"/>
+[Braintree]   <descriptor>
+[Braintree]     <name nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <url nil="true"/>
+[Braintree]   </descriptor>
+[Braintree]   <recurring type="boolean">false</recurring>
+[Braintree]   <channel nil="true"/>
+[Braintree]   <service-fee-amount nil="true"/>
+[Braintree]   <escrow-status nil="true"/>
+[Braintree]   <disbursement-details>
+[Braintree]     <disbursement-date nil="true"/>
+[Braintree]     <settlement-amount nil="true"/>
+[Braintree]     <settlement-currency-iso-code nil="true"/>
+[Braintree]     <settlement-currency-exchange-rate nil="true"/>
+[Braintree]     <funds-held nil="true"/>
+[Braintree]     <success nil="true"/>
+[Braintree]   </disbursement-details>
+[Braintree]   <disputes type="array"/>
+[Braintree]   <authorization-adjustments type="array"/>
+[Braintree]   <payment-instrument-type>credit_card</payment-instrument-type>
+[Braintree]   <processor-settlement-response-code></processor-settlement-response-code>
+[Braintree]   <processor-settlement-response-text></processor-settlement-response-text>
+[Braintree]   <three-d-secure-info nil="true"/>
+[Braintree]   <ships-from-postal-code nil="true"/>
+[Braintree]   <shipping-amount nil="true"/>
+[Braintree]   <discount-amount nil="true"/>
+[Braintree] </transaction>
+
+D, [2018-01-10T01:23:18.847078 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:23:18 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T01:23:18.847249 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T01:23:19.242119 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:23:19 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T01:23:19.242239 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:23:19 UTC] 201 Created
+D, [2018-01-10T01:23:19.242506 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJiMGQxM2JiY2Q1ZDI3OTU1MGQyYmZhNzg3MjE3NDMyOTEwMjExOWRjODJmYzU4ZGJlZWE0OWJkODc4MTMyNzk5fGNyZWF0ZWRfYXQ9MjAxOC0wMS0wOVQxNzoyMzoxOS4wNjM5ODM0NDUrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T01:23:32.687824 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:23:32 UTC] POST /merchants/75dm8y9q85trszq5/transactions
+D, [2018-01-10T01:23:32.689048 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <payment-method-nonce>681fcf71-6f05-01b9-6fb4-243a968812c2</payment-method-nonce>
+[Braintree]   <options>
+[Braintree]     <submit-for-settlement type="boolean">true</submit-for-settlement>
+[Braintree]   </options>
+[Braintree]   <type>sale</type>
+[Braintree] </transaction>
+
+I, [2018-01-10T01:23:33.916389 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:23:33 UTC] POST /merchants/75dm8y9q85trszq5/transactions 201
+D, [2018-01-10T01:23:33.916505 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:23:33 UTC] 201 Created
+D, [2018-01-10T01:23:33.916935 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <id>0y5wcwcv</id>
+[Braintree]   <status>submitted_for_settlement</status>
+[Braintree]   <type>sale</type>
+[Braintree]   <currency-iso-code>USD</currency-iso-code>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <merchant-account-id>nextacademy</merchant-account-id>
+[Braintree]   <sub-merchant-account-id nil="true"/>
+[Braintree]   <master-merchant-account-id nil="true"/>
+[Braintree]   <order-id nil="true"/>
+[Braintree]   <created-at type="datetime">2018-01-09T17:23:33Z</created-at>
+[Braintree]   <updated-at type="datetime">2018-01-09T17:23:33Z</updated-at>
+[Braintree]   <customer>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <email nil="true"/>
+[Braintree]     <website nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <fax nil="true"/>
+[Braintree]   </customer>
+[Braintree]   <billing>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </billing>
+[Braintree]   <refund-id nil="true"/>
+[Braintree]   <refund-ids type="array"/>
+[Braintree]   <refunded-transaction-id nil="true"/>
+[Braintree]   <partial-settlement-transaction-ids type="array"/>
+[Braintree]   <authorized-transaction-id nil="true"/>
+[Braintree]   <settlement-batch-id nil="true"/>
+[Braintree]   <shipping>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </shipping>
+[Braintree]   <custom-fields/>
+[Braintree]   <avs-error-response-code nil="true"/>
+[Braintree]   <avs-postal-code-response-code>I</avs-postal-code-response-code>
+[Braintree]   <avs-street-address-response-code>I</avs-street-address-response-code>
+[Braintree]   <cvv-response-code>M</cvv-response-code>
+[Braintree]   <gateway-rejection-reason nil="true"/>
+[Braintree]   <processor-authorization-code>0K23ZF</processor-authorization-code>
+[Braintree]   <processor-response-code>1000</processor-response-code>
+[Braintree]   <processor-response-text>Approved</processor-response-text>
+[Braintree]   <additional-processor-response nil="true"/>
+[Braintree]   <voice-referral-number nil="true"/>
+[Braintree]   <purchase-order-number nil="true"/>
+[Braintree]   <tax-amount nil="true"/>
+[Braintree]   <tax-exempt type="boolean">false</tax-exempt>
+[Braintree]   <credit-card>
+[Braintree]     <token nil="true"/>
+[Braintree]     <bin>411111</bin>
+[Braintree]     <last-4>1111</last-4>
+[Braintree]     <card-type>Visa</card-type>
+[Braintree]     <expiration-month>10</expiration-month>
+[Braintree]     <expiration-year>2019</expiration-year>
+[Braintree]     <customer-location>US</customer-location>
+[Braintree]     <cardholder-name nil="true"/>
+[Braintree]     <image-url>https://assets.braintreegateway.com/payment_method_logo/visa.png?environment=sandbox</image-url>
+[Braintree]     <prepaid>Unknown</prepaid>
+[Braintree]     <healthcare>Unknown</healthcare>
+[Braintree]     <debit>Unknown</debit>
+[Braintree]     <durbin-regulated>Unknown</durbin-regulated>
+[Braintree]     <commercial>Unknown</commercial>
+[Braintree]     <payroll>Unknown</payroll>
+[Braintree]     <issuing-bank>Unknown</issuing-bank>
+[Braintree]     <country-of-issuance>Unknown</country-of-issuance>
+[Braintree]     <product-id>Unknown</product-id>
+[Braintree]     <unique-number-identifier nil="true"/>
+[Braintree]     <venmo-sdk type="boolean">false</venmo-sdk>
+[Braintree]   </credit-card>
+[Braintree]   <status-history type="array">
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:23:33Z</timestamp>
+[Braintree]       <status>authorized</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:23:33Z</timestamp>
+[Braintree]       <status>submitted_for_settlement</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]   </status-history>
+[Braintree]   <plan-id nil="true"/>
+[Braintree]   <subscription-id nil="true"/>
+[Braintree]   <subscription>
+[Braintree]     <billing-period-end-date nil="true"/>
+[Braintree]     <billing-period-start-date nil="true"/>
+[Braintree]   </subscription>
+[Braintree]   <add-ons type="array"/>
+[Braintree]   <discounts type="array"/>
+[Braintree]   <descriptor>
+[Braintree]     <name nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <url nil="true"/>
+[Braintree]   </descriptor>
+[Braintree]   <recurring type="boolean">false</recurring>
+[Braintree]   <channel nil="true"/>
+[Braintree]   <service-fee-amount nil="true"/>
+[Braintree]   <escrow-status nil="true"/>
+[Braintree]   <disbursement-details>
+[Braintree]     <disbursement-date nil="true"/>
+[Braintree]     <settlement-amount nil="true"/>
+[Braintree]     <settlement-currency-iso-code nil="true"/>
+[Braintree]     <settlement-currency-exchange-rate nil="true"/>
+[Braintree]     <funds-held nil="true"/>
+[Braintree]     <success nil="true"/>
+[Braintree]   </disbursement-details>
+[Braintree]   <disputes type="array"/>
+[Braintree]   <authorization-adjustments type="array"/>
+[Braintree]   <payment-instrument-type>credit_card</payment-instrument-type>
+[Braintree]   <processor-settlement-response-code></processor-settlement-response-code>
+[Braintree]   <processor-settlement-response-text></processor-settlement-response-text>
+[Braintree]   <three-d-secure-info nil="true"/>
+[Braintree]   <ships-from-postal-code nil="true"/>
+[Braintree]   <shipping-amount nil="true"/>
+[Braintree]   <discount-amount nil="true"/>
+[Braintree] </transaction>
+
+D, [2018-01-10T01:25:49.406002 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:25:49 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T01:25:49.406225 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T01:25:50.011375 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:25:50 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T01:25:50.011490 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:25:50 UTC] 201 Created
+D, [2018-01-10T01:25:50.011750 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIxNGQ1NTM4NjIyYjQ5NzgzOTcwZTMyZjFkYzE1NjFjZmViM2FhNmY5YzAwZjc2YzM3ZTMyZTBmOTFjZmYxNGVmfGNyZWF0ZWRfYXQ9MjAxOC0wMS0wOVQxNzoyNTo0OS41OTg5NDExMTkrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T01:26:04.348790 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:26:04 UTC] POST /merchants/75dm8y9q85trszq5/transactions
+D, [2018-01-10T01:26:04.348931 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <payment-method-nonce>5fd157b1-4d42-065c-55f6-84368fc56948</payment-method-nonce>
+[Braintree]   <options>
+[Braintree]     <submit-for-settlement type="boolean">true</submit-for-settlement>
+[Braintree]   </options>
+[Braintree]   <type>sale</type>
+[Braintree] </transaction>
+
+I, [2018-01-10T01:26:05.682628 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:26:05 UTC] POST /merchants/75dm8y9q85trszq5/transactions 201
+D, [2018-01-10T01:26:05.682765 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:26:05 UTC] 201 Created
+D, [2018-01-10T01:26:05.683184 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <id>9qh4431k</id>
+[Braintree]   <status>submitted_for_settlement</status>
+[Braintree]   <type>sale</type>
+[Braintree]   <currency-iso-code>USD</currency-iso-code>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <merchant-account-id>nextacademy</merchant-account-id>
+[Braintree]   <sub-merchant-account-id nil="true"/>
+[Braintree]   <master-merchant-account-id nil="true"/>
+[Braintree]   <order-id nil="true"/>
+[Braintree]   <created-at type="datetime">2018-01-09T17:26:04Z</created-at>
+[Braintree]   <updated-at type="datetime">2018-01-09T17:26:05Z</updated-at>
+[Braintree]   <customer>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <email nil="true"/>
+[Braintree]     <website nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <fax nil="true"/>
+[Braintree]   </customer>
+[Braintree]   <billing>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </billing>
+[Braintree]   <refund-id nil="true"/>
+[Braintree]   <refund-ids type="array"/>
+[Braintree]   <refunded-transaction-id nil="true"/>
+[Braintree]   <partial-settlement-transaction-ids type="array"/>
+[Braintree]   <authorized-transaction-id nil="true"/>
+[Braintree]   <settlement-batch-id nil="true"/>
+[Braintree]   <shipping>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </shipping>
+[Braintree]   <custom-fields/>
+[Braintree]   <avs-error-response-code nil="true"/>
+[Braintree]   <avs-postal-code-response-code>I</avs-postal-code-response-code>
+[Braintree]   <avs-street-address-response-code>I</avs-street-address-response-code>
+[Braintree]   <cvv-response-code>M</cvv-response-code>
+[Braintree]   <gateway-rejection-reason nil="true"/>
+[Braintree]   <processor-authorization-code>8QTPX0</processor-authorization-code>
+[Braintree]   <processor-response-code>1000</processor-response-code>
+[Braintree]   <processor-response-text>Approved</processor-response-text>
+[Braintree]   <additional-processor-response nil="true"/>
+[Braintree]   <voice-referral-number nil="true"/>
+[Braintree]   <purchase-order-number nil="true"/>
+[Braintree]   <tax-amount nil="true"/>
+[Braintree]   <tax-exempt type="boolean">false</tax-exempt>
+[Braintree]   <credit-card>
+[Braintree]     <token nil="true"/>
+[Braintree]     <bin>411111</bin>
+[Braintree]     <last-4>1111</last-4>
+[Braintree]     <card-type>Visa</card-type>
+[Braintree]     <expiration-month>10</expiration-month>
+[Braintree]     <expiration-year>2019</expiration-year>
+[Braintree]     <customer-location>US</customer-location>
+[Braintree]     <cardholder-name nil="true"/>
+[Braintree]     <image-url>https://assets.braintreegateway.com/payment_method_logo/visa.png?environment=sandbox</image-url>
+[Braintree]     <prepaid>Unknown</prepaid>
+[Braintree]     <healthcare>Unknown</healthcare>
+[Braintree]     <debit>Unknown</debit>
+[Braintree]     <durbin-regulated>Unknown</durbin-regulated>
+[Braintree]     <commercial>Unknown</commercial>
+[Braintree]     <payroll>Unknown</payroll>
+[Braintree]     <issuing-bank>Unknown</issuing-bank>
+[Braintree]     <country-of-issuance>Unknown</country-of-issuance>
+[Braintree]     <product-id>Unknown</product-id>
+[Braintree]     <unique-number-identifier nil="true"/>
+[Braintree]     <venmo-sdk type="boolean">false</venmo-sdk>
+[Braintree]   </credit-card>
+[Braintree]   <status-history type="array">
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:26:05Z</timestamp>
+[Braintree]       <status>authorized</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:26:05Z</timestamp>
+[Braintree]       <status>submitted_for_settlement</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]   </status-history>
+[Braintree]   <plan-id nil="true"/>
+[Braintree]   <subscription-id nil="true"/>
+[Braintree]   <subscription>
+[Braintree]     <billing-period-end-date nil="true"/>
+[Braintree]     <billing-period-start-date nil="true"/>
+[Braintree]   </subscription>
+[Braintree]   <add-ons type="array"/>
+[Braintree]   <discounts type="array"/>
+[Braintree]   <descriptor>
+[Braintree]     <name nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <url nil="true"/>
+[Braintree]   </descriptor>
+[Braintree]   <recurring type="boolean">false</recurring>
+[Braintree]   <channel nil="true"/>
+[Braintree]   <service-fee-amount nil="true"/>
+[Braintree]   <escrow-status nil="true"/>
+[Braintree]   <disbursement-details>
+[Braintree]     <disbursement-date nil="true"/>
+[Braintree]     <settlement-amount nil="true"/>
+[Braintree]     <settlement-currency-iso-code nil="true"/>
+[Braintree]     <settlement-currency-exchange-rate nil="true"/>
+[Braintree]     <funds-held nil="true"/>
+[Braintree]     <success nil="true"/>
+[Braintree]   </disbursement-details>
+[Braintree]   <disputes type="array"/>
+[Braintree]   <authorization-adjustments type="array"/>
+[Braintree]   <payment-instrument-type>credit_card</payment-instrument-type>
+[Braintree]   <processor-settlement-response-code></processor-settlement-response-code>
+[Braintree]   <processor-settlement-response-text></processor-settlement-response-text>
+[Braintree]   <three-d-secure-info nil="true"/>
+[Braintree]   <ships-from-postal-code nil="true"/>
+[Braintree]   <shipping-amount nil="true"/>
+[Braintree]   <discount-amount nil="true"/>
+[Braintree] </transaction>
+
+D, [2018-01-10T01:33:19.146603 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:33:19 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T01:33:19.146779 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T01:33:19.877200 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:33:19 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T01:33:19.877275 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:33:19 UTC] 201 Created
+D, [2018-01-10T01:33:19.877434 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI4MmE4MzBlZTViMDUyMmNmYjgyNDk3YWZlOTZkNDhmZTc4ZTNkYjg0MjQ4NmI1NjgyMzBkOTU3ZGZmNjViOGExfGNyZWF0ZWRfYXQ9MjAxOC0wMS0wOVQxNzozMzoxOS4zNDY4NDAyOTIrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T01:39:35.880452 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:39:35 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T01:39:35.880623 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T01:39:36.497967 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:39:36 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T01:39:36.499853 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:39:36 UTC] 201 Created
+D, [2018-01-10T01:39:36.500193 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJkYmM5NmZhMTE4ZmRjNDY2MDc2OTg0YWNkNTNkNTNlZWE2ODk2OGI4OTAyZWFkYjljOTJiNTMzMjc0NmM2MzY4fGNyZWF0ZWRfYXQ9MjAxOC0wMS0wOVQxNzozOTozNi4wODc5MDg5MjUrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T01:40:07.932382 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:40:07 UTC] POST /merchants/75dm8y9q85trszq5/transactions
+D, [2018-01-10T01:40:07.932646 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <payment-method-nonce>c42fb0ed-c000-0584-7459-4e77ef3ff48e</payment-method-nonce>
+[Braintree]   <options>
+[Braintree]     <submit-for-settlement type="boolean">true</submit-for-settlement>
+[Braintree]   </options>
+[Braintree]   <type>sale</type>
+[Braintree] </transaction>
+
+I, [2018-01-10T01:40:09.574447 #3763]  INFO -- : [Braintree] [09/Jan/2018 17:40:09 UTC] POST /merchants/75dm8y9q85trszq5/transactions 201
+D, [2018-01-10T01:40:09.574564 #3763] DEBUG -- : [Braintree] [09/Jan/2018 17:40:09 UTC] 201 Created
+D, [2018-01-10T01:40:09.574987 #3763] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <id>7qr3627p</id>
+[Braintree]   <status>submitted_for_settlement</status>
+[Braintree]   <type>sale</type>
+[Braintree]   <currency-iso-code>USD</currency-iso-code>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <merchant-account-id>nextacademy</merchant-account-id>
+[Braintree]   <sub-merchant-account-id nil="true"/>
+[Braintree]   <master-merchant-account-id nil="true"/>
+[Braintree]   <order-id nil="true"/>
+[Braintree]   <created-at type="datetime">2018-01-09T17:40:08Z</created-at>
+[Braintree]   <updated-at type="datetime">2018-01-09T17:40:09Z</updated-at>
+[Braintree]   <customer>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <email nil="true"/>
+[Braintree]     <website nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <fax nil="true"/>
+[Braintree]   </customer>
+[Braintree]   <billing>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </billing>
+[Braintree]   <refund-id nil="true"/>
+[Braintree]   <refund-ids type="array"/>
+[Braintree]   <refunded-transaction-id nil="true"/>
+[Braintree]   <partial-settlement-transaction-ids type="array"/>
+[Braintree]   <authorized-transaction-id nil="true"/>
+[Braintree]   <settlement-batch-id nil="true"/>
+[Braintree]   <shipping>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </shipping>
+[Braintree]   <custom-fields/>
+[Braintree]   <avs-error-response-code nil="true"/>
+[Braintree]   <avs-postal-code-response-code>I</avs-postal-code-response-code>
+[Braintree]   <avs-street-address-response-code>I</avs-street-address-response-code>
+[Braintree]   <cvv-response-code>M</cvv-response-code>
+[Braintree]   <gateway-rejection-reason nil="true"/>
+[Braintree]   <processor-authorization-code>SRT4NQ</processor-authorization-code>
+[Braintree]   <processor-response-code>1000</processor-response-code>
+[Braintree]   <processor-response-text>Approved</processor-response-text>
+[Braintree]   <additional-processor-response nil="true"/>
+[Braintree]   <voice-referral-number nil="true"/>
+[Braintree]   <purchase-order-number nil="true"/>
+[Braintree]   <tax-amount nil="true"/>
+[Braintree]   <tax-exempt type="boolean">false</tax-exempt>
+[Braintree]   <credit-card>
+[Braintree]     <token nil="true"/>
+[Braintree]     <bin>411111</bin>
+[Braintree]     <last-4>1111</last-4>
+[Braintree]     <card-type>Visa</card-type>
+[Braintree]     <expiration-month>10</expiration-month>
+[Braintree]     <expiration-year>2019</expiration-year>
+[Braintree]     <customer-location>US</customer-location>
+[Braintree]     <cardholder-name nil="true"/>
+[Braintree]     <image-url>https://assets.braintreegateway.com/payment_method_logo/visa.png?environment=sandbox</image-url>
+[Braintree]     <prepaid>Unknown</prepaid>
+[Braintree]     <healthcare>Unknown</healthcare>
+[Braintree]     <debit>Unknown</debit>
+[Braintree]     <durbin-regulated>Unknown</durbin-regulated>
+[Braintree]     <commercial>Unknown</commercial>
+[Braintree]     <payroll>Unknown</payroll>
+[Braintree]     <issuing-bank>Unknown</issuing-bank>
+[Braintree]     <country-of-issuance>Unknown</country-of-issuance>
+[Braintree]     <product-id>Unknown</product-id>
+[Braintree]     <unique-number-identifier nil="true"/>
+[Braintree]     <venmo-sdk type="boolean">false</venmo-sdk>
+[Braintree]   </credit-card>
+[Braintree]   <status-history type="array">
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:40:09Z</timestamp>
+[Braintree]       <status>authorized</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:40:09Z</timestamp>
+[Braintree]       <status>submitted_for_settlement</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]   </status-history>
+[Braintree]   <plan-id nil="true"/>
+[Braintree]   <subscription-id nil="true"/>
+[Braintree]   <subscription>
+[Braintree]     <billing-period-end-date nil="true"/>
+[Braintree]     <billing-period-start-date nil="true"/>
+[Braintree]   </subscription>
+[Braintree]   <add-ons type="array"/>
+[Braintree]   <discounts type="array"/>
+[Braintree]   <descriptor>
+[Braintree]     <name nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <url nil="true"/>
+[Braintree]   </descriptor>
+[Braintree]   <recurring type="boolean">false</recurring>
+[Braintree]   <channel nil="true"/>
+[Braintree]   <service-fee-amount nil="true"/>
+[Braintree]   <escrow-status nil="true"/>
+[Braintree]   <disbursement-details>
+[Braintree]     <disbursement-date nil="true"/>
+[Braintree]     <settlement-amount nil="true"/>
+[Braintree]     <settlement-currency-iso-code nil="true"/>
+[Braintree]     <settlement-currency-exchange-rate nil="true"/>
+[Braintree]     <funds-held nil="true"/>
+[Braintree]     <success nil="true"/>
+[Braintree]   </disbursement-details>
+[Braintree]   <disputes type="array"/>
+[Braintree]   <authorization-adjustments type="array"/>
+[Braintree]   <payment-instrument-type>credit_card</payment-instrument-type>
+[Braintree]   <processor-settlement-response-code></processor-settlement-response-code>
+[Braintree]   <processor-settlement-response-text></processor-settlement-response-text>
+[Braintree]   <three-d-secure-info nil="true"/>
+[Braintree]   <ships-from-postal-code nil="true"/>
+[Braintree]   <shipping-amount nil="true"/>
+[Braintree]   <discount-amount nil="true"/>
+[Braintree] </transaction>
+
+D, [2018-01-10T01:46:50.169489 #4376] DEBUG -- : [Braintree] [09/Jan/2018 17:46:50 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T01:46:50.169724 #4376] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T01:46:50.885780 #4376]  INFO -- : [Braintree] [09/Jan/2018 17:46:50 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T01:46:50.885895 #4376] DEBUG -- : [Braintree] [09/Jan/2018 17:46:50 UTC] 201 Created
+D, [2018-01-10T01:46:50.886229 #4376] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIxMmRlNTEzNmY2MGNkNjBiZTBmYTEzNTU2NTllNjk4MzJhYjkzNDA3ZmNiMWZiNzYwMGRkYWQzNDk4NDkyOTdlfGNyZWF0ZWRfYXQ9MjAxOC0wMS0wOVQxNzo0Njo1MC4zOTI0NDU2MzMrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T01:47:06.701616 #4376] DEBUG -- : [Braintree] [09/Jan/2018 17:47:06 UTC] POST /merchants/75dm8y9q85trszq5/transactions
+D, [2018-01-10T01:47:06.701775 #4376] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <payment-method-nonce>9bcec27b-35e9-041c-2806-4de55e5e5ecf</payment-method-nonce>
+[Braintree]   <options>
+[Braintree]     <submit-for-settlement type="boolean">true</submit-for-settlement>
+[Braintree]   </options>
+[Braintree]   <type>sale</type>
+[Braintree] </transaction>
+
+I, [2018-01-10T01:47:07.987146 #4376]  INFO -- : [Braintree] [09/Jan/2018 17:47:07 UTC] POST /merchants/75dm8y9q85trszq5/transactions 201
+D, [2018-01-10T01:47:07.987290 #4376] DEBUG -- : [Braintree] [09/Jan/2018 17:47:07 UTC] 201 Created
+D, [2018-01-10T01:47:07.987902 #4376] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <id>b5n903v4</id>
+[Braintree]   <status>submitted_for_settlement</status>
+[Braintree]   <type>sale</type>
+[Braintree]   <currency-iso-code>USD</currency-iso-code>
+[Braintree]   <amount>10.00</amount>
+[Braintree]   <merchant-account-id>nextacademy</merchant-account-id>
+[Braintree]   <sub-merchant-account-id nil="true"/>
+[Braintree]   <master-merchant-account-id nil="true"/>
+[Braintree]   <order-id nil="true"/>
+[Braintree]   <created-at type="datetime">2018-01-09T17:47:07Z</created-at>
+[Braintree]   <updated-at type="datetime">2018-01-09T17:47:07Z</updated-at>
+[Braintree]   <customer>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <email nil="true"/>
+[Braintree]     <website nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <fax nil="true"/>
+[Braintree]   </customer>
+[Braintree]   <billing>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </billing>
+[Braintree]   <refund-id nil="true"/>
+[Braintree]   <refund-ids type="array"/>
+[Braintree]   <refunded-transaction-id nil="true"/>
+[Braintree]   <partial-settlement-transaction-ids type="array"/>
+[Braintree]   <authorized-transaction-id nil="true"/>
+[Braintree]   <settlement-batch-id nil="true"/>
+[Braintree]   <shipping>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </shipping>
+[Braintree]   <custom-fields/>
+[Braintree]   <avs-error-response-code nil="true"/>
+[Braintree]   <avs-postal-code-response-code>I</avs-postal-code-response-code>
+[Braintree]   <avs-street-address-response-code>I</avs-street-address-response-code>
+[Braintree]   <cvv-response-code>M</cvv-response-code>
+[Braintree]   <gateway-rejection-reason nil="true"/>
+[Braintree]   <processor-authorization-code>KCMD0Y</processor-authorization-code>
+[Braintree]   <processor-response-code>1000</processor-response-code>
+[Braintree]   <processor-response-text>Approved</processor-response-text>
+[Braintree]   <additional-processor-response nil="true"/>
+[Braintree]   <voice-referral-number nil="true"/>
+[Braintree]   <purchase-order-number nil="true"/>
+[Braintree]   <tax-amount nil="true"/>
+[Braintree]   <tax-exempt type="boolean">false</tax-exempt>
+[Braintree]   <credit-card>
+[Braintree]     <token nil="true"/>
+[Braintree]     <bin>411111</bin>
+[Braintree]     <last-4>1111</last-4>
+[Braintree]     <card-type>Visa</card-type>
+[Braintree]     <expiration-month>10</expiration-month>
+[Braintree]     <expiration-year>2019</expiration-year>
+[Braintree]     <customer-location>US</customer-location>
+[Braintree]     <cardholder-name nil="true"/>
+[Braintree]     <image-url>https://assets.braintreegateway.com/payment_method_logo/visa.png?environment=sandbox</image-url>
+[Braintree]     <prepaid>Unknown</prepaid>
+[Braintree]     <healthcare>Unknown</healthcare>
+[Braintree]     <debit>Unknown</debit>
+[Braintree]     <durbin-regulated>Unknown</durbin-regulated>
+[Braintree]     <commercial>Unknown</commercial>
+[Braintree]     <payroll>Unknown</payroll>
+[Braintree]     <issuing-bank>Unknown</issuing-bank>
+[Braintree]     <country-of-issuance>Unknown</country-of-issuance>
+[Braintree]     <product-id>Unknown</product-id>
+[Braintree]     <unique-number-identifier nil="true"/>
+[Braintree]     <venmo-sdk type="boolean">false</venmo-sdk>
+[Braintree]   </credit-card>
+[Braintree]   <status-history type="array">
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:47:07Z</timestamp>
+[Braintree]       <status>authorized</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-09T17:47:07Z</timestamp>
+[Braintree]       <status>submitted_for_settlement</status>
+[Braintree]       <amount>10.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]   </status-history>
+[Braintree]   <plan-id nil="true"/>
+[Braintree]   <subscription-id nil="true"/>
+[Braintree]   <subscription>
+[Braintree]     <billing-period-end-date nil="true"/>
+[Braintree]     <billing-period-start-date nil="true"/>
+[Braintree]   </subscription>
+[Braintree]   <add-ons type="array"/>
+[Braintree]   <discounts type="array"/>
+[Braintree]   <descriptor>
+[Braintree]     <name nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <url nil="true"/>
+[Braintree]   </descriptor>
+[Braintree]   <recurring type="boolean">false</recurring>
+[Braintree]   <channel nil="true"/>
+[Braintree]   <service-fee-amount nil="true"/>
+[Braintree]   <escrow-status nil="true"/>
+[Braintree]   <disbursement-details>
+[Braintree]     <disbursement-date nil="true"/>
+[Braintree]     <settlement-amount nil="true"/>
+[Braintree]     <settlement-currency-iso-code nil="true"/>
+[Braintree]     <settlement-currency-exchange-rate nil="true"/>
+[Braintree]     <funds-held nil="true"/>
+[Braintree]     <success nil="true"/>
+[Braintree]   </disbursement-details>
+[Braintree]   <disputes type="array"/>
+[Braintree]   <authorization-adjustments type="array"/>
+[Braintree]   <payment-instrument-type>credit_card</payment-instrument-type>
+[Braintree]   <processor-settlement-response-code></processor-settlement-response-code>
+[Braintree]   <processor-settlement-response-text></processor-settlement-response-text>
+[Braintree]   <three-d-secure-info nil="true"/>
+[Braintree]   <ships-from-postal-code nil="true"/>
+[Braintree]   <shipping-amount nil="true"/>
+[Braintree]   <discount-amount nil="true"/>
+[Braintree] </transaction>
+
+D, [2018-01-10T09:42:38.011279 #764] DEBUG -- : [Braintree] [10/Jan/2018 01:42:38 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T09:42:38.012661 #764] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T09:42:38.623822 #764]  INFO -- : [Braintree] [10/Jan/2018 01:42:38 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T09:42:38.623938 #764] DEBUG -- : [Braintree] [10/Jan/2018 01:42:38 UTC] 201 Created
+D, [2018-01-10T09:42:38.624261 #764] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI0NWUzOTE1ZGIxYmZjMDhlMTRhNzE1ODhjZGVlNzZkNjYzNTU0MmU2N2Y0MTgwZjNiOTRkMmQxMmY3MTJjYzUzfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQwMTo0MjozOC4yMzI1NTA4MTYrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T09:45:02.598785 #764] DEBUG -- : [Braintree] [10/Jan/2018 01:45:02 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T09:45:02.605825 #764] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T09:45:03.212354 #764]  INFO -- : [Braintree] [10/Jan/2018 01:45:03 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T09:45:03.212510 #764] DEBUG -- : [Braintree] [10/Jan/2018 01:45:03 UTC] 201 Created
+D, [2018-01-10T09:45:03.212778 #764] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI2YWVkYzk2YWM4OGJiYWI0MmRhODA3YzY5OGQ4ZTBlNDgwYjU4MGYxZTJiYjczZDNjYTUzOTg1MTdhNzFhZjA3fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQwMTo0NTowMi44MTQ4Njg4MDcrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T09:47:46.841923 #764] DEBUG -- : [Braintree] [10/Jan/2018 01:47:46 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T09:47:46.842098 #764] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T09:47:47.455665 #764]  INFO -- : [Braintree] [10/Jan/2018 01:47:47 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T09:47:47.455738 #764] DEBUG -- : [Braintree] [10/Jan/2018 01:47:47 UTC] 201 Created
+D, [2018-01-10T09:47:47.455903 #764] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI5MGM3Nzk0YTE0NzE5ZWJiNjk4YjNjNzI5YWFkZDJmOTM0YjE3YjdmNGEwM2Q0MmE3NTk1M2MzNDc1ODJlMmQ1fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQwMTo0Nzo0Ny4yMzkxMTk4NTIrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T09:52:29.864438 #1047] DEBUG -- : [Braintree] [10/Jan/2018 01:52:29 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T09:52:29.864628 #1047] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T09:52:30.359708 #1047]  INFO -- : [Braintree] [10/Jan/2018 01:52:30 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T09:52:30.359909 #1047] DEBUG -- : [Braintree] [10/Jan/2018 01:52:30 UTC] 201 Created
+D, [2018-01-10T09:52:30.360306 #1047] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJjYmQ0OTZjYjMyN2FkYjQ0NWIwZjY3MTBlMDIxNDU0ODExODNlZTM3Mzg1YjI2MjZkM2U1M2VjNjU0MzI4ODBkfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQwMTo1MjozMC4wODI0MTk3MjYrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T10:50:13.093013 #1825] DEBUG -- : [Braintree] [10/Jan/2018 02:50:13 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T10:50:13.093216 #1825] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T10:50:13.809958 #1825]  INFO -- : [Braintree] [10/Jan/2018 02:50:13 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T10:50:13.810125 #1825] DEBUG -- : [Braintree] [10/Jan/2018 02:50:13 UTC] 201 Created
+D, [2018-01-10T10:50:13.810485 #1825] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJkYjM3YjhiNjAzMTc2YmUzNTA4ODY1ODZiNzVjMWI3NzgzNmQ1M2FmOTYyOTI1NWM3MTM5NjllOGFmZTZmODg3fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQwMjo1MDoxMy4zMDAwNDk3MDUrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T11:09:23.568211 #1825] DEBUG -- : [Braintree] [10/Jan/2018 03:09:23 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T11:09:23.568332 #1825] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T11:09:24.173946 #1825]  INFO -- : [Braintree] [10/Jan/2018 03:09:24 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T11:09:24.174086 #1825] DEBUG -- : [Braintree] [10/Jan/2018 03:09:24 UTC] 201 Created
+D, [2018-01-10T11:09:24.174382 #1825] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJjNWQ2ZDE4N2QzNzZlMDcwZTJhYWE4MzY5NDQxYzc3NWZiOTg4NDc4YWM3OGJhNGU4NmZlNjQ4NWI3MDYxNTkxfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQwMzowOToyMy43NzEyNDc4NTgrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T11:12:47.886222 #2268] DEBUG -- : [Braintree] [10/Jan/2018 03:12:47 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T11:12:47.886415 #2268] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T11:12:48.574953 #2268]  INFO -- : [Braintree] [10/Jan/2018 03:12:48 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T11:12:48.575074 #2268] DEBUG -- : [Braintree] [10/Jan/2018 03:12:48 UTC] 201 Created
+D, [2018-01-10T11:12:48.575394 #2268] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJhODM5ZTA1Y2IwM2E5NDJmMjVmNDE2MTFmYzcyMDRhY2NjNzlhZmZkNmY3OGMzOTY2MTQxNjQyMDI0ZGNmYjY4fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQwMzoxMjo0OC4wNjg3NDM5MDgrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T11:13:01.887359 #2268] DEBUG -- : [Braintree] [10/Jan/2018 03:13:01 UTC] POST /merchants/75dm8y9q85trszq5/transactions
+D, [2018-01-10T11:13:01.887724 #2268] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <amount type="integer">200</amount>
+[Braintree]   <payment-method-nonce>fc931c31-bb4e-004e-589e-9d4b5ed1ce94</payment-method-nonce>
+[Braintree]   <options>
+[Braintree]     <submit-for-settlement type="boolean">true</submit-for-settlement>
+[Braintree]   </options>
+[Braintree]   <type>sale</type>
+[Braintree] </transaction>
+
+I, [2018-01-10T11:13:03.218625 #2268]  INFO -- : [Braintree] [10/Jan/2018 03:13:03 UTC] POST /merchants/75dm8y9q85trszq5/transactions 201
+D, [2018-01-10T11:13:03.218748 #2268] DEBUG -- : [Braintree] [10/Jan/2018 03:13:03 UTC] 201 Created
+D, [2018-01-10T11:13:03.219186 #2268] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <id>evxf7928</id>
+[Braintree]   <status>submitted_for_settlement</status>
+[Braintree]   <type>sale</type>
+[Braintree]   <currency-iso-code>USD</currency-iso-code>
+[Braintree]   <amount>200.00</amount>
+[Braintree]   <merchant-account-id>nextacademy</merchant-account-id>
+[Braintree]   <sub-merchant-account-id nil="true"/>
+[Braintree]   <master-merchant-account-id nil="true"/>
+[Braintree]   <order-id nil="true"/>
+[Braintree]   <created-at type="datetime">2018-01-10T03:13:02Z</created-at>
+[Braintree]   <updated-at type="datetime">2018-01-10T03:13:02Z</updated-at>
+[Braintree]   <customer>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <email nil="true"/>
+[Braintree]     <website nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <fax nil="true"/>
+[Braintree]   </customer>
+[Braintree]   <billing>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </billing>
+[Braintree]   <refund-id nil="true"/>
+[Braintree]   <refund-ids type="array"/>
+[Braintree]   <refunded-transaction-id nil="true"/>
+[Braintree]   <partial-settlement-transaction-ids type="array"/>
+[Braintree]   <authorized-transaction-id nil="true"/>
+[Braintree]   <settlement-batch-id nil="true"/>
+[Braintree]   <shipping>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </shipping>
+[Braintree]   <custom-fields/>
+[Braintree]   <avs-error-response-code nil="true"/>
+[Braintree]   <avs-postal-code-response-code>I</avs-postal-code-response-code>
+[Braintree]   <avs-street-address-response-code>I</avs-street-address-response-code>
+[Braintree]   <cvv-response-code>M</cvv-response-code>
+[Braintree]   <gateway-rejection-reason nil="true"/>
+[Braintree]   <processor-authorization-code>WRXFTD</processor-authorization-code>
+[Braintree]   <processor-response-code>1000</processor-response-code>
+[Braintree]   <processor-response-text>Approved</processor-response-text>
+[Braintree]   <additional-processor-response nil="true"/>
+[Braintree]   <voice-referral-number nil="true"/>
+[Braintree]   <purchase-order-number nil="true"/>
+[Braintree]   <tax-amount nil="true"/>
+[Braintree]   <tax-exempt type="boolean">false</tax-exempt>
+[Braintree]   <credit-card>
+[Braintree]     <token nil="true"/>
+[Braintree]     <bin>411111</bin>
+[Braintree]     <last-4>1111</last-4>
+[Braintree]     <card-type>Visa</card-type>
+[Braintree]     <expiration-month>10</expiration-month>
+[Braintree]     <expiration-year>2019</expiration-year>
+[Braintree]     <customer-location>US</customer-location>
+[Braintree]     <cardholder-name nil="true"/>
+[Braintree]     <image-url>https://assets.braintreegateway.com/payment_method_logo/visa.png?environment=sandbox</image-url>
+[Braintree]     <prepaid>Unknown</prepaid>
+[Braintree]     <healthcare>Unknown</healthcare>
+[Braintree]     <debit>Unknown</debit>
+[Braintree]     <durbin-regulated>Unknown</durbin-regulated>
+[Braintree]     <commercial>Unknown</commercial>
+[Braintree]     <payroll>Unknown</payroll>
+[Braintree]     <issuing-bank>Unknown</issuing-bank>
+[Braintree]     <country-of-issuance>Unknown</country-of-issuance>
+[Braintree]     <product-id>Unknown</product-id>
+[Braintree]     <unique-number-identifier nil="true"/>
+[Braintree]     <venmo-sdk type="boolean">false</venmo-sdk>
+[Braintree]   </credit-card>
+[Braintree]   <status-history type="array">
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-10T03:13:02Z</timestamp>
+[Braintree]       <status>authorized</status>
+[Braintree]       <amount>200.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-10T03:13:02Z</timestamp>
+[Braintree]       <status>submitted_for_settlement</status>
+[Braintree]       <amount>200.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]   </status-history>
+[Braintree]   <plan-id nil="true"/>
+[Braintree]   <subscription-id nil="true"/>
+[Braintree]   <subscription>
+[Braintree]     <billing-period-end-date nil="true"/>
+[Braintree]     <billing-period-start-date nil="true"/>
+[Braintree]   </subscription>
+[Braintree]   <add-ons type="array"/>
+[Braintree]   <discounts type="array"/>
+[Braintree]   <descriptor>
+[Braintree]     <name nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <url nil="true"/>
+[Braintree]   </descriptor>
+[Braintree]   <recurring type="boolean">false</recurring>
+[Braintree]   <channel nil="true"/>
+[Braintree]   <service-fee-amount nil="true"/>
+[Braintree]   <escrow-status nil="true"/>
+[Braintree]   <disbursement-details>
+[Braintree]     <disbursement-date nil="true"/>
+[Braintree]     <settlement-amount nil="true"/>
+[Braintree]     <settlement-currency-iso-code nil="true"/>
+[Braintree]     <settlement-currency-exchange-rate nil="true"/>
+[Braintree]     <funds-held nil="true"/>
+[Braintree]     <success nil="true"/>
+[Braintree]   </disbursement-details>
+[Braintree]   <disputes type="array"/>
+[Braintree]   <authorization-adjustments type="array"/>
+[Braintree]   <payment-instrument-type>credit_card</payment-instrument-type>
+[Braintree]   <processor-settlement-response-code></processor-settlement-response-code>
+[Braintree]   <processor-settlement-response-text></processor-settlement-response-text>
+[Braintree]   <three-d-secure-info nil="true"/>
+[Braintree]   <ships-from-postal-code nil="true"/>
+[Braintree]   <shipping-amount nil="true"/>
+[Braintree]   <discount-amount nil="true"/>
+[Braintree] </transaction>
+
+D, [2018-01-10T11:32:59.669319 #2513] DEBUG -- : [Braintree] [10/Jan/2018 03:32:59 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T11:32:59.669602 #2513] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T11:33:00.283405 #2513]  INFO -- : [Braintree] [10/Jan/2018 03:33:00 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T11:33:00.283483 #2513] DEBUG -- : [Braintree] [10/Jan/2018 03:33:00 UTC] 201 Created
+D, [2018-01-10T11:33:00.283688 #2513] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJjOTEyMDI5YTNkNGYyNThkZTc4N2MxNWVjNzU0NzQzMjYwYjNhOGI1ZmQ5YjdjZDQxZjVmNzdlOGRjZGI4M2I0fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQwMzozMjo1OS44MzMyNjgwOTQrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T11:33:12.468965 #2513] DEBUG -- : [Braintree] [10/Jan/2018 03:33:12 UTC] POST /merchants/75dm8y9q85trszq5/transactions
+D, [2018-01-10T11:33:12.469133 #2513] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <amount type="integer">200</amount>
+[Braintree]   <payment-method-nonce>42f49338-94ed-0b92-79d7-b17de6207070</payment-method-nonce>
+[Braintree]   <options>
+[Braintree]     <submit-for-settlement type="boolean">true</submit-for-settlement>
+[Braintree]   </options>
+[Braintree]   <type>sale</type>
+[Braintree] </transaction>
+
+I, [2018-01-10T11:33:13.699619 #2513]  INFO -- : [Braintree] [10/Jan/2018 03:33:13 UTC] POST /merchants/75dm8y9q85trszq5/transactions 201
+D, [2018-01-10T11:33:13.699740 #2513] DEBUG -- : [Braintree] [10/Jan/2018 03:33:13 UTC] 201 Created
+D, [2018-01-10T11:33:13.700246 #2513] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <transaction>
+[Braintree]   <id>1rjqn61z</id>
+[Braintree]   <status>submitted_for_settlement</status>
+[Braintree]   <type>sale</type>
+[Braintree]   <currency-iso-code>USD</currency-iso-code>
+[Braintree]   <amount>200.00</amount>
+[Braintree]   <merchant-account-id>nextacademy</merchant-account-id>
+[Braintree]   <sub-merchant-account-id nil="true"/>
+[Braintree]   <master-merchant-account-id nil="true"/>
+[Braintree]   <order-id nil="true"/>
+[Braintree]   <created-at type="datetime">2018-01-10T03:33:12Z</created-at>
+[Braintree]   <updated-at type="datetime">2018-01-10T03:33:13Z</updated-at>
+[Braintree]   <customer>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <email nil="true"/>
+[Braintree]     <website nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <fax nil="true"/>
+[Braintree]   </customer>
+[Braintree]   <billing>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </billing>
+[Braintree]   <refund-id nil="true"/>
+[Braintree]   <refund-ids type="array"/>
+[Braintree]   <refunded-transaction-id nil="true"/>
+[Braintree]   <partial-settlement-transaction-ids type="array"/>
+[Braintree]   <authorized-transaction-id nil="true"/>
+[Braintree]   <settlement-batch-id nil="true"/>
+[Braintree]   <shipping>
+[Braintree]     <id nil="true"/>
+[Braintree]     <first-name nil="true"/>
+[Braintree]     <last-name nil="true"/>
+[Braintree]     <company nil="true"/>
+[Braintree]     <street-address nil="true"/>
+[Braintree]     <extended-address nil="true"/>
+[Braintree]     <locality nil="true"/>
+[Braintree]     <region nil="true"/>
+[Braintree]     <postal-code nil="true"/>
+[Braintree]     <country-name nil="true"/>
+[Braintree]     <country-code-alpha2 nil="true"/>
+[Braintree]     <country-code-alpha3 nil="true"/>
+[Braintree]     <country-code-numeric nil="true"/>
+[Braintree]   </shipping>
+[Braintree]   <custom-fields/>
+[Braintree]   <avs-error-response-code nil="true"/>
+[Braintree]   <avs-postal-code-response-code>I</avs-postal-code-response-code>
+[Braintree]   <avs-street-address-response-code>I</avs-street-address-response-code>
+[Braintree]   <cvv-response-code>M</cvv-response-code>
+[Braintree]   <gateway-rejection-reason nil="true"/>
+[Braintree]   <processor-authorization-code>R57SQF</processor-authorization-code>
+[Braintree]   <processor-response-code>1000</processor-response-code>
+[Braintree]   <processor-response-text>Approved</processor-response-text>
+[Braintree]   <additional-processor-response nil="true"/>
+[Braintree]   <voice-referral-number nil="true"/>
+[Braintree]   <purchase-order-number nil="true"/>
+[Braintree]   <tax-amount nil="true"/>
+[Braintree]   <tax-exempt type="boolean">false</tax-exempt>
+[Braintree]   <credit-card>
+[Braintree]     <token nil="true"/>
+[Braintree]     <bin>411111</bin>
+[Braintree]     <last-4>1111</last-4>
+[Braintree]     <card-type>Visa</card-type>
+[Braintree]     <expiration-month>10</expiration-month>
+[Braintree]     <expiration-year>2019</expiration-year>
+[Braintree]     <customer-location>US</customer-location>
+[Braintree]     <cardholder-name nil="true"/>
+[Braintree]     <image-url>https://assets.braintreegateway.com/payment_method_logo/visa.png?environment=sandbox</image-url>
+[Braintree]     <prepaid>Unknown</prepaid>
+[Braintree]     <healthcare>Unknown</healthcare>
+[Braintree]     <debit>Unknown</debit>
+[Braintree]     <durbin-regulated>Unknown</durbin-regulated>
+[Braintree]     <commercial>Unknown</commercial>
+[Braintree]     <payroll>Unknown</payroll>
+[Braintree]     <issuing-bank>Unknown</issuing-bank>
+[Braintree]     <country-of-issuance>Unknown</country-of-issuance>
+[Braintree]     <product-id>Unknown</product-id>
+[Braintree]     <unique-number-identifier nil="true"/>
+[Braintree]     <venmo-sdk type="boolean">false</venmo-sdk>
+[Braintree]   </credit-card>
+[Braintree]   <status-history type="array">
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-10T03:33:13Z</timestamp>
+[Braintree]       <status>authorized</status>
+[Braintree]       <amount>200.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]     <status-event>
+[Braintree]       <timestamp type="datetime">2018-01-10T03:33:13Z</timestamp>
+[Braintree]       <status>submitted_for_settlement</status>
+[Braintree]       <amount>200.00</amount>
+[Braintree]       <user>kaiweepuah0121@hotmail.com</user>
+[Braintree]       <transaction-source>api</transaction-source>
+[Braintree]     </status-event>
+[Braintree]   </status-history>
+[Braintree]   <plan-id nil="true"/>
+[Braintree]   <subscription-id nil="true"/>
+[Braintree]   <subscription>
+[Braintree]     <billing-period-end-date nil="true"/>
+[Braintree]     <billing-period-start-date nil="true"/>
+[Braintree]   </subscription>
+[Braintree]   <add-ons type="array"/>
+[Braintree]   <discounts type="array"/>
+[Braintree]   <descriptor>
+[Braintree]     <name nil="true"/>
+[Braintree]     <phone nil="true"/>
+[Braintree]     <url nil="true"/>
+[Braintree]   </descriptor>
+[Braintree]   <recurring type="boolean">false</recurring>
+[Braintree]   <channel nil="true"/>
+[Braintree]   <service-fee-amount nil="true"/>
+[Braintree]   <escrow-status nil="true"/>
+[Braintree]   <disbursement-details>
+[Braintree]     <disbursement-date nil="true"/>
+[Braintree]     <settlement-amount nil="true"/>
+[Braintree]     <settlement-currency-iso-code nil="true"/>
+[Braintree]     <settlement-currency-exchange-rate nil="true"/>
+[Braintree]     <funds-held nil="true"/>
+[Braintree]     <success nil="true"/>
+[Braintree]   </disbursement-details>
+[Braintree]   <disputes type="array"/>
+[Braintree]   <authorization-adjustments type="array"/>
+[Braintree]   <payment-instrument-type>credit_card</payment-instrument-type>
+[Braintree]   <processor-settlement-response-code></processor-settlement-response-code>
+[Braintree]   <processor-settlement-response-text></processor-settlement-response-text>
+[Braintree]   <three-d-secure-info nil="true"/>
+[Braintree]   <ships-from-postal-code nil="true"/>
+[Braintree]   <shipping-amount nil="true"/>
+[Braintree]   <discount-amount nil="true"/>
+[Braintree] </transaction>
+
+D, [2018-01-10T17:22:20.141203 #5159] DEBUG -- : [Braintree] [10/Jan/2018 09:22:20 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T17:22:20.142597 #5159] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T17:22:20.857598 #5159]  INFO -- : [Braintree] [10/Jan/2018 09:22:20 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T17:22:20.857679 #5159] DEBUG -- : [Braintree] [10/Jan/2018 09:22:20 UTC] 201 Created
+D, [2018-01-10T17:22:20.859189 #5159] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJhOTBiYTk3OTYzZjM5ZjQ4YzczMTQ0Zjg4ZDNmNGIxNTE2MTRlMWNlYTU0YzAxNGJjZDQwODc5OTAwYWZkN2IwfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQwOToyMjoyMC4zNDE5Mzg3MzYrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T22:25:15.856784 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:25:15 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T22:25:15.858125 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T22:25:16.576951 #2213]  INFO -- : [Braintree] [10/Jan/2018 14:25:16 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T22:25:16.577075 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:25:16 UTC] 201 Created
+D, [2018-01-10T22:25:16.578886 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI3NTJlMzVjOTY0M2QzMzdlN2VhZmU5ZTEwZDI3NzU0ZmRiZTE5NGNkMmIzODJiY2UyZmFiYTFmNGRhNDQ2NDllfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNDoyNToxNi4wNDc4NzQwOTIrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T22:29:37.830735 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:29:37 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T22:29:37.831876 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T22:29:38.825296 #2213]  INFO -- : [Braintree] [10/Jan/2018 14:29:38 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T22:29:38.825419 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:29:38 UTC] 201 Created
+D, [2018-01-10T22:29:38.825714 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIzNzdhNjYyZjI3NTA3NWU2NGY0YTlkYTVlYjljYWMzYjljNDEwYzZkODg1NjVjZTBkZmFmYTk2NWM3MmNmMzUzfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNDoyOTozOC4wMjgwNDQ0ODcrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T22:33:53.954222 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:33:53 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T22:33:53.955489 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T22:33:54.360736 #2213]  INFO -- : [Braintree] [10/Jan/2018 14:33:54 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T22:33:54.360907 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:33:54 UTC] 201 Created
+D, [2018-01-10T22:33:54.361270 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJiOTNhY2FjNmI0MWQ0OTk2ODA0MDU4ZTM1OWE5OGE1MTA3NWE3NjJiMzMwODA1ZTc4MzI1OTg3NGVkMzkyNmRlfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNDozMzo1NC4xODMwODcxNjArMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T22:49:57.913242 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:49:57 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T22:49:57.914476 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T22:49:58.634033 #2213]  INFO -- : [Braintree] [10/Jan/2018 14:49:58 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T22:49:58.634172 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:49:58 UTC] 201 Created
+D, [2018-01-10T22:49:58.634542 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJiMmM3M2FhZDM4ODEyZjc4NWVmYzk0NGE1ODRmZDU4N2ViYThiNzUyYTc3MTdkZDRmMGJiMDkyYTFmNmZjOWQ3fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNDo0OTo1OC4xMjI4MDEwNjcrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T22:53:20.161767 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:53:20 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T22:53:20.163042 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T22:53:20.875253 #2213]  INFO -- : [Braintree] [10/Jan/2018 14:53:20 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T22:53:20.875421 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:53:20 UTC] 201 Created
+D, [2018-01-10T22:53:20.875914 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI3NWQzZjkxYjMwZDQxMmY2YzZlMDI4YWVhZTgzY2EwNTAzMGQ2ZDYzNTY2NTViMjhkZGE3NTBkMGRjZDViZWVjfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNDo1MzoyMC4zOTgzOTE0NjYrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T22:54:25.744229 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:54:25 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T22:54:25.744374 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T22:54:26.071288 #2213]  INFO -- : [Braintree] [10/Jan/2018 14:54:26 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T22:54:26.071407 #2213] DEBUG -- : [Braintree] [10/Jan/2018 14:54:26 UTC] 201 Created
+D, [2018-01-10T22:54:26.071671 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI2NzBmODMwMDM1ZTgxNGI4OWVjZjBkMzQyZjU0NTdmMTllZjIwNjg2MDYzYWM3MzRjYzM5NmJlODgyYzU4MDYwfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNDo1NDoyNS45NzU5OTYxMzErMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T23:03:53.739073 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:03:53 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T23:03:53.740327 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T23:03:54.341897 #2213]  INFO -- : [Braintree] [10/Jan/2018 15:03:54 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T23:03:54.342017 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:03:54 UTC] 201 Created
+D, [2018-01-10T23:03:54.342283 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJlN2Y5YjUzN2VhZmJlMGIwMTRmZTdhNGRhOTIwNDMxYzJkNTNjYmExMTA4MDBiMDk2NzRhY2ZmMDVkNmM3MmNlfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNTowMzo1My45NDA3NjYwMjQrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T23:04:52.022837 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:04:52 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T23:04:52.022985 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T23:04:52.246683 #2213]  INFO -- : [Braintree] [10/Jan/2018 15:04:52 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T23:04:52.246802 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:04:52 UTC] 201 Created
+D, [2018-01-10T23:04:52.247153 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIzYWJjYTcxNWRmNjM2NGFkNGI4NWJhMzVkZWM3OGVmZDA3MmI0YmYyM2ZmNjkzMjgwYWFiYTcxODdmZGZmMWM4fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNTowNDo1Mi4xNDQ0MTU4MTErMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T23:10:35.715731 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:10:35 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T23:10:35.717062 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T23:10:36.373351 #2213]  INFO -- : [Braintree] [10/Jan/2018 15:10:36 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T23:10:36.373497 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:10:36 UTC] 201 Created
+D, [2018-01-10T23:10:36.374149 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI0MmFkNTJkYjc3MzA1NGEyZWFiODM1OWQ1N2IwYzI2Njg5NTRmY2UwMTZjMGU2MGNlNjBjZjFmOTMxZjA0NjZhfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNToxMDozNS45MTY4MDUxNDcrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T23:11:58.034244 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:11:58 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T23:11:58.034347 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T23:11:58.601203 #2213]  INFO -- : [Braintree] [10/Jan/2018 15:11:58 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T23:11:58.601318 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:11:58 UTC] 201 Created
+D, [2018-01-10T23:11:58.601580 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIwMTExZDQ4YmJmZjM1NTNjZDlmOTc3YzcyMzhmOGNmMzU1ZjZmMzEwOTJiMjkzOWNjZmJjODQzYTQ1NTE3NmFkfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNToxMTo1OC4yMjUwNzc1ODErMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T23:12:46.624580 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:12:46 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T23:12:46.624724 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T23:12:46.930909 #2213]  INFO -- : [Braintree] [10/Jan/2018 15:12:46 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T23:12:46.931051 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:12:46 UTC] 201 Created
+D, [2018-01-10T23:12:46.931345 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIwMDhhZmM2ZjEzMTI0YTM4ZWVlNzdhNmUwNGU1OWJjMTdhZDU3YTc1NTVkODdlNzM1YTkyZDRjYzIxZWZiMjRhfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNToxMjo0Ni43NDI2NDc4NjIrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T23:30:26.482096 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:30:26 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T23:30:26.482368 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T23:30:27.098366 #2213]  INFO -- : [Braintree] [10/Jan/2018 15:30:27 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T23:30:27.098483 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:30:27 UTC] 201 Created
+D, [2018-01-10T23:30:27.098748 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI2N2I2ODczZTU4ZDNiMDE0OTM5ODg2MmNhMjUwOWJkYTA0OTNhYzI4NWMxOWVkYmU0NzVmYWQ0Nzc1MmNkNWU3fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNTozMDoyNi42OTU3MDU2NjErMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-10T23:44:46.238290 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:44:46 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-10T23:44:46.239360 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-10T23:44:46.872096 #2213]  INFO -- : [Braintree] [10/Jan/2018 15:44:46 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-10T23:44:46.872210 #2213] DEBUG -- : [Braintree] [10/Jan/2018 15:44:46 UTC] 201 Created
+D, [2018-01-10T23:44:46.872483 #2213] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIzOWIyODRiZDEzOWJjZGIyMGU4YmYzZmM3M2JiYWRjMTQ0NDBhNWRkODhlOWQwMzI3ZmYzMWQzN2RlNjllZjY0fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNTo0NDo0Ni40NDk2ODgyMzErMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T01:29:02.885624 #3950] DEBUG -- : [Braintree] [10/Jan/2018 17:29:02 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T01:29:02.886984 #3950] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T01:29:03.467100 #3950]  INFO -- : [Braintree] [10/Jan/2018 17:29:03 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T01:29:03.467239 #3950] DEBUG -- : [Braintree] [10/Jan/2018 17:29:03 UTC] 201 Created
+D, [2018-01-11T01:29:03.467576 #3950] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIzMGMyY2VmMTBlNmYxYjUxMmQyMGFhZWEwMjcyMmRhNjUxOWY1OGI3Yzk4ZWQ5Yjc4ZmRhM2NkMDYyMWY2ODk2fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNzoyOTowMy4wODM4MzExODArMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T01:32:40.813512 #3950] DEBUG -- : [Braintree] [10/Jan/2018 17:32:40 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T01:32:40.813660 #3950] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T01:32:41.172481 #3950]  INFO -- : [Braintree] [10/Jan/2018 17:32:41 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T01:32:41.172596 #3950] DEBUG -- : [Braintree] [10/Jan/2018 17:32:41 UTC] 201 Created
+D, [2018-01-11T01:32:41.172861 #3950] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJlOWZmMjg4YzBmODc0ZmJhMmYyMGMzNDJiZjhkNThiY2QzNTNhOGQ4ODFlZjljZTQ0ZjdkZjY0ZWIzMGI2MzlmfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNzozMjo0MS4wMTI0NTM0OTgrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T01:48:58.752578 #3950] DEBUG -- : [Braintree] [10/Jan/2018 17:48:58 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T01:48:58.753730 #3950] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T01:48:59.472937 #3950]  INFO -- : [Braintree] [10/Jan/2018 17:48:59 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T01:48:59.473050 #3950] DEBUG -- : [Braintree] [10/Jan/2018 17:48:59 UTC] 201 Created
+D, [2018-01-11T01:48:59.473326 #3950] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIxMGFlZDJlYTUyYjc0YmQ3NTNlNzRjZTg1ODQ1NmQ2MjdkYThjNTc2MTI0YTNlYTZiZWRlNWRkNDUzNDRhNzAyfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxNzo0ODo1OC45NDU2MzcwODErMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T02:20:50.675291 #3950] DEBUG -- : [Braintree] [10/Jan/2018 18:20:50 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T02:20:50.675442 #3950] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T02:20:51.411645 #3950]  INFO -- : [Braintree] [10/Jan/2018 18:20:51 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T02:20:51.411762 #3950] DEBUG -- : [Braintree] [10/Jan/2018 18:20:51 UTC] 201 Created
+D, [2018-01-11T02:20:51.412091 #3950] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIyNmI3ZWRmNmYxMWNiMmNjNjkyMWI0NGQzMTk5NGEzMGY2ZTI3MWZiNzI0OTIxNTMxNTM0ZDM2OTA4ZGYyNTQ0fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMFQxODoyMDo1MC45MTYxMDk3NDgrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T11:10:59.697473 #1914] DEBUG -- : [Braintree] [11/Jan/2018 03:10:59 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T11:10:59.698781 #1914] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T11:11:00.706842 #1914]  INFO -- : [Braintree] [11/Jan/2018 03:11:00 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T11:11:00.706978 #1914] DEBUG -- : [Braintree] [11/Jan/2018 03:11:00 UTC] 201 Created
+D, [2018-01-11T11:11:00.708514 #1914] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI5N2ZlOGI2NjE0ODJmNzg4N2E0OTBmMWJhYzM0Njc0YjAwYTMxZGI3NGYyZTFhNmMxYjY5Y2RmNjU5YjExYTlhfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMVQwMzoxMTowMC4yOTY0OTA3MTUrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T11:12:25.409227 #1914] DEBUG -- : [Braintree] [11/Jan/2018 03:12:25 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T11:12:25.410487 #1914] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T11:12:26.021908 #1914]  INFO -- : [Braintree] [11/Jan/2018 03:12:26 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T11:12:26.022209 #1914] DEBUG -- : [Braintree] [11/Jan/2018 03:12:26 UTC] 201 Created
+D, [2018-01-11T11:12:26.022565 #1914] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIyNGRlZWVkMGNjNTMzZmNiNjdmOGViZjhjZGEzMTE2MmFiMjc0ODc0YjIzMjFhN2Q5MDc4MWEyNWExMTMzYWUwfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMVQwMzoxMjoyNS42MTY3MTI1NTkrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T11:14:05.965205 #1914] DEBUG -- : [Braintree] [11/Jan/2018 03:14:05 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T11:14:05.966553 #1914] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T11:14:06.356431 #1914]  INFO -- : [Braintree] [11/Jan/2018 03:14:06 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T11:14:06.356511 #1914] DEBUG -- : [Braintree] [11/Jan/2018 03:14:06 UTC] 201 Created
+D, [2018-01-11T11:14:06.356696 #1914] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJkZDA5ZGRiYTVkNDNmZGZiMGI1N2QwZWIwZjMyOGNmOGU0MmMwZjZmYTQyM2RjOWE4Mzk1NzM2NzJlM2U0NjVifGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMVQwMzoxNDowNi4xNjQ2MjU2MTUrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T11:17:15.061469 #1914] DEBUG -- : [Braintree] [11/Jan/2018 03:17:15 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T11:17:15.062600 #1914] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T11:17:15.471448 #1914]  INFO -- : [Braintree] [11/Jan/2018 03:17:15 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T11:17:15.471784 #1914] DEBUG -- : [Braintree] [11/Jan/2018 03:17:15 UTC] 201 Created
+D, [2018-01-11T11:17:15.472089 #1914] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIyNmNhNmUzMjk5MjE4OWI5ODA3ZDlkOTVhZGJhNDM4ODUzYjJkZmZkMDNlMjk2YTU2ZGY1ODNhZGE0ZGQ4MDAxfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMVQwMzoxNzoxNS4yOTU1NzA2MTkrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T14:51:48.651237 #6006] DEBUG -- : [Braintree] [11/Jan/2018 06:51:48 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T14:51:48.652555 #6006] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T14:51:49.185744 #6006]  INFO -- : [Braintree] [11/Jan/2018 06:51:49 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T14:51:49.185935 #6006] DEBUG -- : [Braintree] [11/Jan/2018 06:51:49 UTC] 201 Created
+D, [2018-01-11T14:51:49.187900 #6006] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI1YzY0OGM3NTc5MjQ2MTU3YzA4NmFkZjU0NDczMTBmM2MzMDM3NWMwZTZmY2M1YjEwNmZhNTEwZmVlN2E1ZGU2fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMVQwNjo1MTo0OC44NjgxMTk3MDcrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T15:01:21.253147 #6006] DEBUG -- : [Braintree] [11/Jan/2018 07:01:21 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T15:01:21.254550 #6006] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T15:01:21.896230 #6006]  INFO -- : [Braintree] [11/Jan/2018 07:01:21 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T15:01:21.896375 #6006] DEBUG -- : [Braintree] [11/Jan/2018 07:01:21 UTC] 201 Created
+D, [2018-01-11T15:01:21.896667 #6006] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiJiZTQyNjRiMGY5NzFkMTBmZWYxNzVlZDY3YjA1MTkyZjBkZWYxYWM3ZTZkMDBlOWIyZWFlNTVmZGNhZWFjZDdlfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMVQwNzowMToyMS40ODQ1NDAzODMrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T15:02:16.329488 #6006] DEBUG -- : [Braintree] [11/Jan/2018 07:02:16 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T15:02:16.330769 #6006] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T15:02:16.580291 #6006]  INFO -- : [Braintree] [11/Jan/2018 07:02:16 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T15:02:16.580432 #6006] DEBUG -- : [Braintree] [11/Jan/2018 07:02:16 UTC] 201 Created
+D, [2018-01-11T15:02:16.580700 #6006] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI3NjY0ZGExYzc0ZGM5ZGZmMjQzZmUxMTU3MzYwNjU1MTFiOTFkMGI2NzEwOWMzMjU0MTAzYjliM2RlZDRmMWJjfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMVQwNzowMjoxNi40NTk3MDU4NDgrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T15:04:59.058450 #6006] DEBUG -- : [Braintree] [11/Jan/2018 07:04:59 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T15:04:59.059702 #6006] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T15:04:59.465803 #6006]  INFO -- : [Braintree] [11/Jan/2018 07:04:59 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T15:04:59.465923 #6006] DEBUG -- : [Braintree] [11/Jan/2018 07:04:59 UTC] 201 Created
+D, [2018-01-11T15:04:59.466219 #6006] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIwZWZmY2Q3NmU0Yjc4Y2Y1MGE0NWIyYmYxZmZjMDRiNDUzMmQyNmYzNTUzNTExYWMxNzQ4MGU2ZDU3OTA1YzAzfGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMVQwNzowNDo1OS4yNjgxODQ1NDcrMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+
+D, [2018-01-11T15:13:32.564872 #6006] DEBUG -- : [Braintree] [11/Jan/2018 07:13:32 UTC] POST /merchants/75dm8y9q85trszq5/client_token
+D, [2018-01-11T15:13:32.566415 #6006] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <version type="integer">2</version>
+[Braintree] </client-token>
+
+I, [2018-01-11T15:13:33.134480 #6006]  INFO -- : [Braintree] [11/Jan/2018 07:13:33 UTC] POST /merchants/75dm8y9q85trszq5/client_token 201
+D, [2018-01-11T15:13:33.134674 #6006] DEBUG -- : [Braintree] [11/Jan/2018 07:13:33 UTC] 201 Created
+D, [2018-01-11T15:13:33.134951 #6006] DEBUG -- : [Braintree] <?xml version="1.0" encoding="UTF-8"?>
+[Braintree] <client-token>
+[Braintree]   <value>eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI2MTE1YmE4NGExNjkxYjZlOGVkODhmZjg2YTc3N2QzZTc4MGVjYzBmMDI4OGJlMjRhMjM5Y2NkNmEwZWE1MjI3fGNyZWF0ZWRfYXQ9MjAxOC0wMS0xMVQwNzoxMzozMi43NTI2NzA1MTArMDAwMFx1MDAyNm1lcmNoYW50X2lkPTc1ZG04eTlxODV0cnN6cTVcdTAwMjZwdWJsaWNfa2V5PWRxNzc4dzZ3dGNtcGp0Y2giLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tOjQ0My9tZXJjaGFudHMvNzVkbTh5OXE4NXRyc3pxNS9jbGllbnRfYXBpL3YxL2NvbmZpZ3VyYXRpb24iLCJjaGFsbGVuZ2VzIjpbXSwiZW52aXJvbm1lbnQiOiJzYW5kYm94IiwiY2xpZW50QXBpVXJsIjoiaHR0cHM6Ly9hcGkuc2FuZGJveC5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzLzc1ZG04eTlxODV0cnN6cTUvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tIiwiYW5hbHl0aWNzIjp7InVybCI6Imh0dHBzOi8vY2xpZW50LWFuYWx5dGljcy5zYW5kYm94LmJyYWludHJlZWdhdGV3YXkuY29tLzc1ZG04eTlxODV0cnN6cTUifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6dHJ1ZSwicGF5cGFsRW5hYmxlZCI6dHJ1ZSwicGF5cGFsIjp7ImRpc3BsYXlOYW1lIjoiTkVYVCBBY2FkZW15IiwiY2xpZW50SWQiOm51bGwsInByaXZhY3lVcmwiOiJodHRwOi8vZXhhbXBsZS5jb20vcHAiLCJ1c2VyQWdyZWVtZW50VXJsIjoiaHR0cDovL2V4YW1wbGUuY29tL3RvcyIsImJhc2VVcmwiOiJodHRwczovL2Fzc2V0cy5icmFpbnRyZWVnYXRld2F5LmNvbSIsImFzc2V0c1VybCI6Imh0dHBzOi8vY2hlY2tvdXQucGF5cGFsLmNvbSIsImRpcmVjdEJhc2VVcmwiOm51bGwsImFsbG93SHR0cCI6dHJ1ZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOnRydWUsImVudmlyb25tZW50Ijoib2ZmbGluZSIsInVudmV0dGVkTWVyY2hhbnQiOmZhbHNlLCJicmFpbnRyZWVDbGllbnRJZCI6Im1hc3RlcmNsaWVudDMiLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoibmV4dGFjYWRlbXkiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6Ijc1ZG04eTlxODV0cnN6cTUiLCJ2ZW5tbyI6Im9mZiJ9</value>
+[Braintree] </client-token>
+

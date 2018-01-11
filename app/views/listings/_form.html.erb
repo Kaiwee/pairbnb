@@ -1,0 +1,45 @@
+<%= form_for @listing do |f| %>
+  <div>
+  <%= f.label "Title" %>
+  <%= f.text_field :title %>
+  </div>
+
+  <div>
+  <%= f.label "Address" %>
+  <%= f.text_field :address %>
+  </div>
+
+  <div>
+  <%= f.label "Price" %>
+  RM <%= f.number_field :price %> per night
+  </div>
+
+  <div>
+  <%= f.label "Maximum number of guests" %>
+  <%= f.number_field :max_num_guests %>
+  </div>
+
+  <div>
+  <%= f.label "Upload files from your computer" %>
+  <%= f.file_field :photos, multiple: true %>
+  </div>
+  <br>
+  <%= f.submit %>
+
+  <div>
+  <% if @listing.photos? %>
+    <strong>Photos</strong><br>
+    <% @listing.photos.each do |photo| %>
+      <%= image_tag(photo) %>
+    <% end %>
+  <% end %>
+  </div>
+
+  <div>
+  <% if signed_in? and current_user.moderator? %>
+    <%= f.label "Status" %><br>
+    <%= f.number_field :status %><br>
+  <% end %>
+  </div>
+
+<% end %>

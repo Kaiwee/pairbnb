@@ -1,0 +1,34 @@
+<%  @listings.each do |listing| %>
+<div class="col-md-3">
+  <div class="well">
+    <% if listing.photos.empty? %>
+      <%= image_tag "http://placehold.it/770x300&text=no images for listing", class:"img-responsive" %>
+    <% else %>
+      <%= image_tag listing.photos.first %>
+    <% end %>
+    
+    <p> <%= listing.id %> </p>
+    <p> <%= listing.title %> </p>     
+    <p> <%= listing.address %> </p>
+    <p> RM <%= listing.price %> per night</p>
+    <p> <%= listing.status %> </p>
+    <p> <%= listing.max_num_guests %> guests maximum</p>
+    <p> <%= link_to 'Show', listing_path(listing) %> </p>
+    <p> <%= link_to 'Edit', edit_listing_path(listing) %> </p>
+
+    <% if signed_in? and current_user.moderator? %>
+    <button type="button" class="btn btn-success"><%= link_to 'Verify', edit_listing_path(listing) %></button>
+    <button type="button" class="btn btn-danger"><%= link_to 'Unverify', edit_listing_path(listing) %></button>
+    <% end %>
+  </div>
+</div>
+<% end %>
+
+<br>
+
+<div class="pagination">
+  <div class="page_info">
+    <%= page_entries_info @listings %>
+  </div>
+  <%= will_paginate @listings, :container => false %>
+</div>
