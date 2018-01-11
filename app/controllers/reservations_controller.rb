@@ -13,8 +13,8 @@ class ReservationsController < ApplicationController
 		@customer = User.find(@reservation.user_id)
 		@reservation.listing = @listing # not understand(to insert listing_id to database,but how?)
 		if @reservation.save
-			ReservationMailer.booking_email(@reservation).deliver_now
-			ReservationMailer.host_email(@customer, @host, @listing).deliver_now
+			BookingEmailJob.perform_later(@reservation)
+			HostEmailJob.perform_later(@customer, @host, @listing)
 			redirect_to braintree_new_reservation_path(@reservation)
 		else
 			@errors = @reservation.errors.full_messages
