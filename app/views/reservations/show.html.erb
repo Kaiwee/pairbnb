@@ -63,7 +63,7 @@
         </div><!-- row -->
         <hr>
         <div class="price">
-          <h3>Total cost for <%= pluralize((@reservation.end_date-@reservation.start_date).to_i, 'night') %>: $<%= @reservation.listing.price * (@reservation.end_date - @reservation.start_date).to_i %></h3>
+          <h3>Total cost for <%= pluralize((@reservation.end_date-@reservation.start_date).to_i, 'night') %>: RM<%= @reservation.listing.price * (@reservation.end_date - @reservation.start_date).to_i %></h3>
         </div>
       </div>
     </div>

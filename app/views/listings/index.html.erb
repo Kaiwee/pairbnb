@@ -1,6 +1,12 @@
 <%  @listings.each do |listing| %>
 <div class="col-md-3">
   <div class="well">
+    <% if listing.photos.empty? %>
+      <%= image_tag "http://placehold.it/770x300&text=no images for listing", class:"img-responsive" %>
+    <% else %>
+      <%= image_tag listing.photos.first %>
+    <% end %>
+    
     <p> <%= listing.id %> </p>
     <p> <%= listing.title %> </p>     
     <p> <%= listing.address %> </p>

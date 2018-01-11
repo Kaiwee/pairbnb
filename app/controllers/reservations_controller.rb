@@ -10,9 +10,11 @@ class ReservationsController < ApplicationController
 		# to find the listing_id bcoz the route to create is /listings/:listing_id/reservations
 		@listing = Listing.find(params[:listing_id]) 
 		@reservation = current_user.reservations.new(reservation_params)
+		@customer = User.find(@reservation.user_id)
 		@reservation.listing = @listing # not understand(to insert listing_id to database,but how?)
 		if @reservation.save
 			ReservationMailer.booking_email(@reservation).deliver_now
+			ReservationMailer.host_email(@customer, @host, @listing).deliver_now
 			redirect_to braintree_new_reservation_path(@reservation)
 		else
 			@errors = @reservation.errors.full_messages
@@ -23,7 +25,7 @@ class ReservationsController < ApplicationController
 	def destroy
 		@reservation = Reservation.find(params[:id])
 		@reservation.destroy
-		redirect_to @reservation.user
+		redirect_to @reservation.listing
 	end
 
 	private

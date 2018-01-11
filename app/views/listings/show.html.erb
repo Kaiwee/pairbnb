@@ -55,6 +55,8 @@
 		  </div>
 		</div>
 	</div>
+<% else %>
+	<%= image_tag "http://placehold.it/770x300&text=no images for listing", class:"img-responsive" %>
 <% end %>
 
 <% if signed_in? and current_user.id != @listing.user_id %>
@@ -90,7 +92,7 @@
 	      <td><%= reservation.num_night %></td>
 	      <td><%= reservation.num_guests %></td>
 	      <td><%= reservation.total_price %></td>
-	       <td><%= link_to 'Cancel Booking', reservation_path, method: :delete, data: {confirm: 'Are you sure?' } %></td>
+	       <td><%= link_to 'Cancel Booking', reservation, method: :delete, data: {confirm: 'Are you sure?' } %></td>
 	    </tr>
 	    </tr>
 	  <% end %>
