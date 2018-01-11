@@ -58,6 +58,9 @@ gem 'fog-aws'
 # Use braintree to integrate the Braintree payment system using Sandbox account
 gem 'braintree'
 
+# Use sidekiq to create a background job to send email asynchronously
+gem 'sidekiq'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
