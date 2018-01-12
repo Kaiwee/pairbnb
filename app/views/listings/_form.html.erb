@@ -27,12 +27,20 @@
   <%= f.submit %>
 
   <div>
-  <% if @listing.photos? %>
-    <strong>Photos</strong><br>
-    <% @listing.photos.each do |photo| %>
-      <%= image_tag(photo) %>
+    <% if @listing.photos? %>
+      <strong>Photos</strong><br>
+      <% @listing.photos.each do |photo| %>
+        <%= image_tag(photo) %>
+      <% end %>
+
+    <label>
+      <p>Pleack tick and click the delete button to delete</p><br>
+      <%= f.check_box :remove_photos %>
+      Remove Listing Picture(s)
+      <%= f.submit "Delete" %>
+    </label><br>
+
     <% end %>
-  <% end %>
   </div>
 
   <div>
