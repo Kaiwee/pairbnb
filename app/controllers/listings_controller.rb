@@ -41,6 +41,6 @@ class ListingsController < ApplicationController
 
 	private
 	def listing_params
-		params.require(:listing).permit(:title, :address, :price, :max_num_guests, {photos: []})
+		params.require(:listing).permit(:title, :address, :price, :max_num_guests, {photos: []}, :remove_photos)
 	end
 end
