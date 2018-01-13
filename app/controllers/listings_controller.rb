@@ -1,6 +1,14 @@
 class ListingsController < ApplicationController
 	def index
-		@listings = current_user.listings.all.paginate(page: params[:page], per_page: 8).order('created_at DESC')
+		if params[:search]
+			@index_title = "All search results for:"
+			@search_term = "'#{params[:search]}'"
+
+			@listings = Listing.search(params[:search]).order("created_at DESC").paginate(page: params[:page], per_page: 8)
+		else
+			@index_title = "My Listings"
+			@listings = current_user.listings.all.paginate(page: params[:page], per_page: 8).order('created_at DESC')
+		end
 	end
 
 	def show
