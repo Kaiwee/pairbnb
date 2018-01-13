@@ -19,7 +19,9 @@
       <p> <%= listing.status %> </p>
       <p> <%= listing.max_num_guests %> guests maximum</p>
       <p> <%= link_to 'Show', listing_path(listing) %> </p>
-      <p> <%= link_to 'Edit', edit_listing_path(listing) %> </p>
+      <% if signed_in? and current_user.id == listing.user_id %>
+        <p> <%= link_to 'Edit', edit_listing_path(listing) %> </p>
+      <% end %>
 
       <% if signed_in? and current_user.moderator? %>
         <button type="button" class="btn btn-success"><%= link_to 'Verify', edit_listing_path(listing) %></button>
