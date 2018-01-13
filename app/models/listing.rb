@@ -9,4 +9,8 @@ class Listing < ApplicationRecord
 	enum status: { Unverified: 0, Verified: 1}
 
 	mount_uploaders :photos, PhotosUploader
+
+	def self.search(query)
+		where(["title ilike ? or address ilike ?", "%#{query}%", "%#{query}%"])
+	end
 end
