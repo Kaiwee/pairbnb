@@ -15,7 +15,7 @@
 			<% if !current_user.image.present? %>
 				<li><%= link_to current_user.email, user_path(current_user) %></li>
 			<% else %>
-				<li><%= link_to image_tag(current_user.image_url(:thumb).to_s, :style => "border-radius: 50%"), user_path(current_user) %></li><br>
+				<li><%= link_to image_tag(current_user.image_url(:thumb).to_s, :style => "border-radius: 50%"), user_path(current_user) %></li>
 			<% end %>
 
 		<% else %>
