@@ -60,9 +60,9 @@ class ListingsController < ApplicationController
 
 	def check_current_listing
 		@user = User.find_by(id: @listing.user_id)
-		if logged_in? and current_user.id != @user.id
+		if signed_in? and current_user.id != @user.id
 			redirect_to "/", notice: "This is not your listing"
-		elsif !logged_in?
+		elsif !signed_in?
 			redirect_to "/", notice: "You need to log in first"
 		end
 	end

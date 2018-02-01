@@ -26,9 +26,9 @@ class UsersController < ApplicationController
 	end
 
 	def check_current_user
-		if logged_in? and current_user.id != @user.id
+		if signed_in? and current_user.id != @user.id
 			redirect_to "/", notice: "This is not your profile"
-		elsif !logged_in?
+		elsif !signed_in?
 			redirect_to "/", notice: "You need to log in first"
 		end	
 	end
