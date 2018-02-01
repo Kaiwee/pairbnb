@@ -1,4 +1,8 @@
 class ListingsController < ApplicationController
+
+	before_action :find_listing, only: [:show, :edit, :update]
+	before_action :check_current_listing, only: [:edit, :update]
+
 	def index
 		if params[:search]
 			@index_title = "All search results for:"
@@ -12,7 +16,6 @@ class ListingsController < ApplicationController
 	end
 
 	def show
-		@listing = Listing.find(params[:id])
 		@reservations = @listing.reservations
 		@reservation = Reservation.new
 	end
@@ -22,7 +25,6 @@ class ListingsController < ApplicationController
 	end
 
 	def edit
-		@listing = Listing.find(params[:id])
 	end
 
 	def create
@@ -35,7 +37,6 @@ class ListingsController < ApplicationController
 	end
 
 	def update
-		@listing = Listing.find(params[:id])
 		@listing.update(listing_params)
 		@listing.Verified! if current_user.moderator?
 		redirect_to @listing
@@ -48,6 +49,24 @@ class ListingsController < ApplicationController
 	end
 
 	private
+
+	def find_listing
+		if @listing = Listing.find_by(id: params[:id])
+			return @listing
+		else
+			redirect_to '/', notice: "Listing does not exist"
+		end	
+	end
+
+	def check_current_listing
+		@user = User.find_by(id: @listing.user_id)
+		if logged_in? and current_user.id != @user.id
+			redirect_to "/", notice: "This is not your listing"
+		elsif !logged_in?
+			redirect_to "/", notice: "You need to log in first"
+		end
+	end
+
 	def listing_params
 		params.require(:listing).permit(:title, :address, :price, :max_num_guests, {photos: []}, :remove_photos)
 	end
